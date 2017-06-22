@@ -11,11 +11,12 @@
 #include <string>
 #include "FindMedianSortedArrays.cpp"
 #include "LongestPalindrome.cpp"
+#include "ZigZagConversion.cpp"
 
 using namespace std;
 
 /*
- * find median sorted arrays test
+ *  1 . find median sorted arrays test
  */
 //int main(int argc, const char * argv[]) {
 //
@@ -26,8 +27,20 @@ using namespace std;
 //    return 0;
 //}
 
+
+/*
+ *  2 . Longest Palindrome SubString test
+ */
+//int main(int argc , const char *argv[]){
+//    string s("cccc");
+//    cout << LongestPalindrome::longestPalindrome(s) << endl;
+//    return 0;
+//}
+
+/*
+ *  3 . Zig Zag Conversion test
+ */
 int main(int argc , const char *argv[]){
-    string s("cccc");
-    cout << LongestPalindrome::longestPalindrome(s) << endl;
-    return 0;
+    string s("abcde");
+    cout << ZigZagConversion::zigZagConversion(s , 4) << endl;
 }
