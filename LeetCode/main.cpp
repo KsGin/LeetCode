@@ -27,7 +27,7 @@ using namespace std;
 //}
 
 int main(int argc , const char *argv[]){
-    string s("dddddd");
+    string s("cccc");
     cout << LongestPalindrome::longestPalindrome(s) << endl;
     return 0;
 }

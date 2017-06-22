@@ -16,29 +16,28 @@ using namespace std;
 class LongestPalindrome {
 public:
     static string longestPalindrome(string s) {
-        vector<int> v(s.length() , 0);
-        for (int i = 0 ; i < s.length(); ++i) {
-            for (int j = 0 ; j < i ; ++j) {
-                if (s.at(j) == s.at(i)) {
-                    if((i-j) > v.at(i))
-                        v.at(i) = i-j;
-                }
-            }
+        auto size = s.size();
+        if (size < 2) {
+            return s;
         }
-        int max = 0;
-        bool f = true;
-        for (int i = 0 ; i < s.length(); ++i) {
-            if(v.at(i) > v.at(max)){
-                for (int j = max-v.at(max); j < i; ++j) {
-                    if (!(v.at(j) == 0 || j - v.at(j) < i-v.at(i)-j || v.at(j) == v.at(i))) {
-                        f = false;
-                        break;
+        auto dp = vector<vector<bool>>(size , vector<bool>(size , false));
+        dp.at(0).at(0) = true;
+        for (auto i = 1; i < size; i++) {
+            dp.at(i).at(i) = true;
+            dp.at(i).at(i-1) = true;
+        }
+        auto r = 0 , l = 0;
+        for(auto i = 2; i <= size; i++){
+            for(auto j = 0; j <= size-i; j++){
+                if(s.at(j) == s.at(j+i-1) && dp.at(j+1).at(j+i-2)){
+                    dp.at(j).at(j+i-1) = true;
+                    if(r-l+1 < i){
+                        l = j;
+                        r = j+i-1;
                     }
                 }
-                if(f) max = i;
-                f = true;
             }
         }
-        return s.substr(max-v.at(max) , v.at(max)+1);
+        return s.substr(l , r-l+1);
     }
 };
