@@ -47,7 +47,7 @@ using namespace std;
 //}
 
 /*
- * 4 . Reverse Integer
+ * 4 . Reverse Integer test
  */
 int main(int argc , const char *argv[]){
     cout << INT32_MIN << "    " << INT32_MAX << endl;
