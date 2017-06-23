@@ -13,6 +13,7 @@
 #include "LongestPalindrome.cpp"
 #include "ZigZagConversion.cpp"
 #include "ReverseInteger.cpp"
+#include "StringToInt.cpp"
 
 using namespace std;
 
@@ -49,7 +50,15 @@ using namespace std;
 /*
  * 4 . Reverse Integer test
  */
+//int main(int argc , const char *argv[]){
+//    cout << INT32_MIN << "    " << INT32_MAX << endl;
+//    cout << Reverse::reverse(123) << endl;
+//}
+
+
+/*
+ * 5 . String to Int
+ */
 int main(int argc , const char *argv[]){
-    cout << INT32_MIN << "    " << INT32_MAX << endl;
-    cout << Reverse::reverse(123) << endl;
+    cout << StringToInt::myAtoi("13456") << endl;
 }

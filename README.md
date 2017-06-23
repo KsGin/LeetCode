@@ -5,3 +5,4 @@
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.cpp)
 3. [Zig Zag Conversuin](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ZigZagConversion.cpp)
 4. [Reverse Integer](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseInteger.cpp)
+5. [String to Int](https://github.com/KsGin/LeetCode/blob/master/LeetCode/StringToInt.cpp)
