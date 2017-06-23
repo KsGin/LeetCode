@@ -12,6 +12,7 @@
 #include "FindMedianSortedArrays.cpp"
 #include "LongestPalindrome.cpp"
 #include "ZigZagConversion.cpp"
+#include "ReverseInteger.cpp"
 
 using namespace std;
 
@@ -40,7 +41,15 @@ using namespace std;
 /*
  *  3 . Zig Zag Conversion test
  */
+//int main(int argc , const char *argv[]){
+//    string s("abcde");
+//    cout << ZigZagConversion::zigZagConversion(s , 4) << endl;
+//}
+
+/*
+ * 4 . Reverse Integer
+ */
 int main(int argc , const char *argv[]){
-    string s("abcde");
-    cout << ZigZagConversion::zigZagConversion(s , 4) << endl;
+    cout << INT32_MIN << "    " << INT32_MAX << endl;
+    cout << Reverse::reverse(123) << endl;
 }
