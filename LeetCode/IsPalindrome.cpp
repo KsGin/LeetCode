@@ -17,7 +17,7 @@ public:
         ss << x;
         string s = ss.str();
 
-        for (int i = 0 , j = static_cast<int>(s.length() - 1); i < j && i != j ; ++i , --j ) {
+        for (int i = 0 , j = static_cast<int>(s.length() - 1); i < j ; ++i , --j ) {
             if (s.at(i) != s.at(j)) {
                 return false;
             }
