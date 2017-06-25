@@ -10,20 +10,24 @@
 #include <string>
 
 using namespace std;
-class IsPalindrome {
+
+class IsPalindrome
+{
 public:
-   static bool isPalindrome(int x) {
-        stringstream ss;
-        ss << x;
-        string s = ss.str();
+	static bool isPalindrome(int x)
+	{
+		stringstream ss;
+		ss << x;
+		auto s = ss.str();
 
-        for (int i = 0 , j = static_cast<int>(s.length() - 1); i < j ; ++i , --j ) {
-            if (s.at(i) != s.at(j)) {
-                return false;
-            }
-        }
+		for (int i = 0, j = static_cast<int>(s.length() - 1); i < j; ++i , --j)
+		{
+			if (s.at(i) != s.at(j))
+			{
+				return false;
+			}
+		}
 
-        return true;
-
-    }
+		return true;
+	}
 };
