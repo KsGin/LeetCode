@@ -1,11 +1,11 @@
-    //
-    //  LongestPalindrome.cpp
-    //  LeetCode
-    //  Given a string s, find the longest palindromic substring in s.
-    //  You may assume that the maximum length of s is 1000.
-    //  Created by ksgin on 2017/6/22.
-    //  Copyright © 2017年 ksgin. All rights reserved.
-    //
+//
+//  LongestPalindrome.cpp
+//  LeetCode
+//  Given a string s, find the longest palindromic substring in s.
+//  You may assume that the maximum length of s is 1000.
+//  Created by ksgin on 2017/6/22.
+//  Copyright © 2017年 ksgin. All rights reserved.
+//
 
 #include <string>
 #include <vector>

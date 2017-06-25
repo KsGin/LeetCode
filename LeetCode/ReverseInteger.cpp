@@ -64,8 +64,8 @@ public:
         if (value > INT32_MAX || value < INT32_MIN) {
             value = 0;
         }
-
+        
         return value;
     }
-
+    
 };
