@@ -26,33 +26,7 @@ using namespace std;
 class ZigZagConversion
 {
 public:
-<<<<<<< HEAD
-    static string zigZagConversion(string s, int numRows) {
-        auto fc = numRows;
-        auto re = string("");
-        auto size = s.size();
-        auto numCols = fc <= 2
-        ? (size % fc == 0
-           ? size / fc
-           : size / fc + 1)
-        : (size % (2*fc-2) == 0
-           ? size / (2*fc-2)
-           : size / (2*fc-2) + 1);
-        if (fc <= 1 || size <= 1) {
-            return s;
-        }
-        if (fc == 2) {
-            for (auto i = 0 ; i <  numCols ; ++i) {
-                re += s.at(i*fc);
-            }
-            for (auto i = 0 ; i <  numCols ; ++i) {
-                if (i*fc+1 < size) {
-                    re += s.at(i*fc+1);
-                }
-            }
-            return re;
-        }
-=======
+
 	static string zigZagConversion(string s, int numRows)
 	{
 		auto fc = numRows;
