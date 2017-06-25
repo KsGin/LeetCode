@@ -78,5 +78,5 @@ using namespace std;
  */
 int main(int argc, const char* argv[])
 {
-    cout << RegularExpressionMatching::isMatch("asdddd", "as.*d") << endl;
+    cout << RegularExpressionMatching::isMatch("aaa", "aa") << endl;
 }

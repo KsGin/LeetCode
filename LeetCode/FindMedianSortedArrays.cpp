@@ -8,7 +8,7 @@
 //
 
 #include <vector>
-#include <iostream>
+#include <climits>
 
 class FindMedianSortedArrays
 {
