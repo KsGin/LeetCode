@@ -66,7 +66,7 @@ using namespace std;
 //}
 
 /*
- * 5 . Is Palindrome
+ * 6 . Is Palindrome
  */
 //int main(int argc, const char* argv[])
 //{
@@ -74,7 +74,7 @@ using namespace std;
 //}
 
 /*
- * 5 . Is Palindrome
+ * 7 . Regular Expression Matching
  */
 int main(int argc, const char* argv[])
 {
