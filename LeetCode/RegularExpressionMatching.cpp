@@ -32,8 +32,11 @@ class RegularExpressionMatching {
 public:
     static bool isMatch(string s, string p) {
         auto size = s.length() > p.length() ? s.length() : p.length();
-        vector<vector<int>> ve(size,vector<int>(size,0));
+        vector<vector<bool>> vdp(size,vector<bool>(size, false));
+        for (auto i = 0; i < vdp.size(); ++i) {
 
+        }
+        
         return true;
     }
 };
