@@ -23,8 +23,10 @@
 
 using namespace std;
 
-class ZigZagConversion {
+class ZigZagConversion
+{
 public:
+<<<<<<< HEAD
     static string zigZagConversion(string s, int numRows) {
         auto fc = numRows;
         auto re = string("");
@@ -50,28 +52,67 @@ public:
             }
             return re;
         }
+=======
+	static string zigZagConversion(string s, int numRows)
+	{
+		auto fc = numRows;
+		auto re = string("");
+		auto size = s.size();
+		auto numCols = fc <= 2
+			               ? (size % fc == 0
+				                  ? size / fc
+				                  : size / fc + 1)
+			               : (size % (2 * fc - 2) == 0
+				                  ? size / (2 * fc - 2)
+				                  : size / (2 * fc - 2) + 1);
+		if (fc <= 1 || size <= 1)
+		{
+			return s;
+		}
+		if (fc == 2)
+		{
+			for (auto i = 0; i < numCols; ++i)
+			{
+				re += s.at(i * fc);
+			}
+			for (auto i = 0; i < numCols; ++i)
+			{
+				if (i * fc + 1 < size)
+				{
+					re += s.at(i * fc + 1);
+				}
+			}
+			return re;
+		}
+>>>>>>> 84555c3f71b7e5920552fc2d7f56e4fef790cd71
 
 
+		for (auto i = 0; i < numCols; ++i)
+		{
+			re += s.at(i * (2 * fc - 2));
+		}
+		for (auto i = 1; i < fc - 1; ++i)
+		{
+			for (auto j = 0; j < numCols; ++j)
+			{
+				if (j * (2 * fc - 2) + i < size)
+				{
+					re += s.at(j * (2 * fc - 2) + i);
+				}
+				if ((j + 1) * (2 * fc - 2) - i < size)
+				{
+					re += s.at((j + 1) * (2 * fc - 2) - i);
+				}
+			}
+		}
+		for (auto i = 0; i < numCols; ++i)
+		{
+			if (i * (2 * fc - 2) + fc - 1 < size)
+			{
+				re += s.at(i * (2 * fc - 2) + fc - 1);
+			}
+		}
 
-        for (auto i = 0 ; i < numCols ; ++i) {
-            re += s.at(i*(2*fc-2));
-        }
-        for (auto i = 1; i < fc - 1; ++i) {
-            for (auto j = 0 ; j < numCols ; ++j) {
-                if (j*(2*fc-2)+i < size) {
-                    re += s.at(j*(2*fc-2)+i);
-                }
-                if ((j+1)*(2*fc-2)-i < size) {
-                    re += s.at((j+1)*(2*fc-2)-i);
-                }
-            }
-        }
-        for (auto i = 0 ; i <  numCols ; ++i) {
-            if (i*(2*fc-2)+fc-1 < size) {
-                re += s.at(i*(2*fc-2)+fc-1);
-            }
-        }
-
-        return re;
-    }
+		return re;
+	}
 };

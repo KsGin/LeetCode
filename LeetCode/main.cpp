@@ -66,6 +66,8 @@ using namespace std;
 /*
  * 5 . Is Palindrome
  */
-int main(int argc , const char *argv[]){
-    cout << IsPalindrome::isPalindrome(12321) << endl;
+int main(int argc, const char* argv[])
+{
+	cout << IsPalindrome::isPalindrome(12321) << endl;
+	cin.get();
 }

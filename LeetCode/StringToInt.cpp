@@ -15,15 +15,18 @@
 using std::stringstream;
 using std::string;
 
-class StringToInt {
+class StringToInt
+{
 public:
-    static int myAtoi(string str) {
-        if (str.length() == 0) {
-            return 0;
-        }
-        stringstream ss(str);
-        int value;
-        ss >> value;
-        return value;
-    }
+	static int myAtoi(string str)
+	{
+		if (str.length() == 0)
+		{
+			return 0;
+		}
+		stringstream ss(str);
+		int value;
+		ss >> value;
+		return value;
+	}
 };
