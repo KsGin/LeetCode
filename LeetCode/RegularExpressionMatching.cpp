@@ -24,15 +24,16 @@
 //
 
 #include <string>
+#include <vector>
 
 using namespace std;
 
 class RegularExpressionMatching {
 public:
     static bool isMatch(string s, string p) {
-        if (s == p) {
-            return true;
-        }
+        auto size = s.length() > p.length() ? s.length() : p.length();
+        vector<vector<int>> ve(size,vector<int>(size,0));
 
+        return true;
     }
 };

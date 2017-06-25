@@ -58,8 +58,6 @@ public:
 			}
 			return re;
 		}
->>>>>>> 84555c3f71b7e5920552fc2d7f56e4fef790cd71
-
 
 		for (auto i = 0; i < numCols; ++i)
 		{

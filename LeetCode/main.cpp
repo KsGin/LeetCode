@@ -15,6 +15,8 @@
 #include "ReverseInteger.cpp"
 #include "StringToInt.cpp"
 #include "IsPalindrome.cpp"
+#include "RegularExpressionMatching.cpp"
+
 using namespace std;
 
 /*
@@ -66,7 +68,15 @@ using namespace std;
 /*
  * 5 . Is Palindrome
  */
+//int main(int argc, const char* argv[])
+//{
+//	cout << IsPalindrome::isPalindrome(12321) << endl;
+//}
+
+/*
+ * 5 . Is Palindrome
+ */
 int main(int argc, const char* argv[])
 {
-	cout << IsPalindrome::isPalindrome(12321) << endl;
+    cout << RegularExpressionMatching::isMatch("asdddd", "as.*d") << endl;
 }
