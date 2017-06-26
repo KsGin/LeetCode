@@ -11,6 +11,8 @@ set(SOURCE_FILES
         LeetCode/RegularExpressionMatching.cpp
         LeetCode/ReverseInteger.cpp
         LeetCode/StringToInt.cpp
-        LeetCode/ZigZagConversion.cpp LeetCode/ContainerWithMostWater.cpp)
+        LeetCode/ZigZagConversion.cpp
+        LeetCode/ContainerWithMostWater.cpp
+        LeetCode/IntegerToRoman.cpp)
 
-add_executable(LeetCode ${SOURCE_FILES} LeetCode/ContainerWithMostWater.cpp)
+add_executable(LeetCode ${SOURCE_FILES})
