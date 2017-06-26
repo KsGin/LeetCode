@@ -16,6 +16,7 @@
 #include "StringToInt.cpp"
 #include "IsPalindrome.cpp"
 #include "RegularExpressionMatching.cpp"
+#include "ContainerWithMostWater.cpp"
 
 using namespace std;
 
@@ -66,7 +67,7 @@ using namespace std;
 //}
 
 /*
- * 5 . Is Palindrome
+ * 6 . Is Palindrome
  */
 //int main(int argc, const char* argv[])
 //{
@@ -74,9 +75,17 @@ using namespace std;
 //}
 
 /*
- * 5 . Is Palindrome
+ * 7 . Regular Expression Matching
+ */
+//int main(int argc, const char* argv[])
+//{
+//    cout << RegularExpressionMatching::isMatch("aaa", "aa") << endl;
+//}
+
+/*
+ * 8 . Regular Expression Matching
  */
 int main(int argc, const char* argv[])
 {
-    cout << RegularExpressionMatching::isMatch("aaa", "aa") << endl;
+    cout << ContainerWithMostWater::maxArea(vector<int>{1 , 1}) << endl;
 }
