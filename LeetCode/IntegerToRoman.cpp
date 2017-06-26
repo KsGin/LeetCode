@@ -17,7 +17,7 @@ public:
 
         string s("");
 
-        for (auto i = 0; num != 0; ++i)
+        while (num != 0)
         {
             auto v = value.begin();
             auto k = key.begin();
