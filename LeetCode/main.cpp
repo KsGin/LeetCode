@@ -18,83 +18,16 @@
 #include "RegularExpressionMatching.cpp"
 #include "ContainerWithMostWater.cpp"
 #include "IntegerToRoman.cpp"
+#include "RomanToInteger.cpp"
 
 using namespace std;
 
 /*
- *  1 . find median sorted arrays test
+ *  test
  */
-//int main(int argc, const char * argv[]) {
-//
-//    vector<int> a {1} , b {1};
-//
-//    std::cout << FindMedianSortedArrays::findMedianSortedArrays(a , b) << std::endl;
-//
-//    return 0;
-//}
+int main(int argc, const char * argv[]) {
 
+    cout << RomanToInteger::romanToInt("CIV") << endl;
 
-/*
- *  2 . Longest Palindrome SubString test
- */
-//int main(int argc , const char *argv[]){
-//    string s("cccc");
-//    cout << LongestPalindrome::longestPalindrome(s) << endl;
-//    return 0;
-//}
-
-/*
- *  3 . Zig Zag Conversion test
- */
-//int main(int argc , const char *argv[]){
-//    string s("abcde");
-//    cout << ZigZagConversion::zigZagConversion(s , 4) << endl;
-//}
-
-/*
- * 4 . Reverse Integer test
- */
-//int main(int argc , const char *argv[]){
-//    cout << INT32_MIN << "    " << INT32_MAX << endl;
-//    cout << Reverse::reverse(123) << endl;
-//}
-
-
-/*
- * 5 . String to Int
- */
-//int main(int argc , const char *argv[]){
-//    cout << StringToInt::myAtoi("13456") << endl;
-//}
-
-/*
- * 6 . Is Palindrome
- */
-//int main(int argc, const char* argv[])
-//{
-//	cout << IsPalindrome::isPalindrome(12321) << endl;
-//}
-
-/*
- * 7 . Regular Expression Matching
- */
-//int main(int argc, const char* argv[])
-//{
-//    cout << RegularExpressionMatching::isMatch("aaa", "aa") << endl;
-//}
-
-/*
- * 8 . Container With Most Water
- */
-//int main(int argc, const char* argv[])
-//{
-//    cout << ContainerWithMostWater::maxArea(vector<int>{1 , 1}) << endl;
-//}
-
-/*
- * 8 . Container With Most Water
- */
-int main(int argc, const char* argv[])
-{
-    cout << IntToRoman::intToRoman(5) << endl;
+    return 0;
 }
