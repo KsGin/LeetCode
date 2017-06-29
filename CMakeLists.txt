@@ -13,6 +13,7 @@ set(SOURCE_FILES
         LeetCode/StringToInt.cpp
         LeetCode/ZigZagConversion.cpp
         LeetCode/ContainerWithMostWater.cpp
-        LeetCode/IntegerToRoman.cpp LeetCode/RomanToInteger.cpp)
+        LeetCode/IntegerToRoman.cpp
+        LeetCode/LongestCommonPrefix.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

@@ -19,6 +19,7 @@
 #include "ContainerWithMostWater.cpp"
 #include "IntegerToRoman.cpp"
 #include "RomanToInteger.cpp"
+#include "LongestCommonPrefix.cpp"
 
 using namespace std;
 
@@ -27,7 +28,7 @@ using namespace std;
  */
 int main(int argc, const char * argv[]) {
 
-    cout << RomanToInteger::romanToInt("CIV") << endl;
+    cout << LongestCommonPrefix::longestCommonPrefix(vector<string>{"str","s","st"}) << endl;
 
     return 0;
 }
