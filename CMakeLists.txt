@@ -14,6 +14,6 @@ set(SOURCE_FILES
         LeetCode/ZigZagConversion.cpp
         LeetCode/ContainerWithMostWater.cpp
         LeetCode/IntegerToRoman.cpp
-        LeetCode/LongestCommonPrefix.cpp)
+        LeetCode/LongestCommonPrefix.cpp LeetCode/ThreeSum.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

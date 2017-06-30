@@ -20,6 +20,7 @@
 #include "IntegerToRoman.cpp"
 #include "RomanToInteger.cpp"
 #include "LongestCommonPrefix.cpp"
+#include "ThreeSum.cpp"
 
 using namespace std;
 
@@ -28,7 +29,8 @@ using namespace std;
  */
 int main(int argc, const char * argv[]) {
 
-    cout << LongestCommonPrefix::longestCommonPrefix(vector<string>{"str","s","st"}) << endl;
+    auto re = ThreeSum::threeSum(vector<int>{3 , 0 , -2 , -1 , 8 , -8});
+    cout << re.size() << endl;
 
     return 0;
 }

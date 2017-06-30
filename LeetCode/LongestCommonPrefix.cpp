@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include <climits>
 
 using std::string;
 using std::vector;
