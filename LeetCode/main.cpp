@@ -21,6 +21,7 @@
 #include "RomanToInteger.cpp"
 #include "LongestCommonPrefix.cpp"
 #include "ThreeSum.cpp"
+#include "ThreeSumClosest.cpp"
 
 using namespace std;
 
@@ -29,8 +30,8 @@ using namespace std;
  */
 int main(int argc, const char * argv[]) {
 
-    auto re = ThreeSum::threeSum(vector<int>{3 , 0 , -2 , -1 , 8 , -8});
-    cout << re.size() << endl;
+    auto re = ThreeSumClosest::threeSumClosest(vector<int>{1 , 1  , 1 , 0 } , 100);
+    cout << re << endl;
 
     return 0;
 }
