@@ -15,6 +15,9 @@ set(SOURCE_FILES
         LeetCode/ContainerWithMostWater.cpp
         LeetCode/IntegerToRoman.cpp
         LeetCode/RomanToInteger.cpp
-        LeetCode/LongestCommonPrefix.cpp LeetCode/ThreeSum.cpp LeetCode/ThreeSumClosest.cpp)
+        LeetCode/LongestCommonPrefix.cpp
+        LeetCode/ThreeSum.cpp
+        LeetCode/ThreeSumClosest.cpp
+        LeetCode/LetterCombinations.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

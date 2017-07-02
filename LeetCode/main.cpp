@@ -8,30 +8,18 @@
 
 #include <iostream>
 #include <vector>
-#include <string>
-#include "FindMedianSortedArrays.cpp"
-#include "LongestPalindrome.cpp"
-#include "ZigZagConversion.cpp"
-#include "ReverseInteger.cpp"
-#include "StringToInt.cpp"
-#include "IsPalindrome.cpp"
-#include "RegularExpressionMatching.cpp"
-#include "ContainerWithMostWater.cpp"
-#include "IntegerToRoman.cpp"
-#include "RomanToInteger.cpp"
-#include "LongestCommonPrefix.cpp"
-#include "ThreeSum.cpp"
-#include "ThreeSumClosest.cpp"
+#include "LetterCombinations.cpp"
 
 using namespace std;
 
 /*
  *  test
  */
+
 int main(int argc, const char * argv[]) {
 
-    auto re = ThreeSumClosest::threeSumClosest(vector<int>{1 , 1  , 1 , 0 } , 100);
-    cout << re << endl;
+    auto re = LetterCombinations::letterCombinations("23");
+    cout << re.size() << endl;
 
     return 0;
 }
