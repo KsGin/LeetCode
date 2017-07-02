@@ -9,7 +9,6 @@
 
 #include <string>
 #include <vector>
-#include <iostream>
 
 using namespace std;
 
@@ -23,7 +22,7 @@ public:
 		{
 			return s;
 		}
-		auto dp = vector<vector<bool>>(size, vector<bool>(size, false));
+		auto dp = ::vector<vector<bool>>(size, vector<bool>(size, false));
 		dp.at(0).at(0) = true;
 		for (auto i = 1; i < size; i++)
 		{
