@@ -8,17 +8,13 @@
 
 #include <iostream>
 #include <vector>
-#include "LetterCombinations.cpp"
+#include "FourSum.cpp"
 
 using namespace std;
 
-/*
- *  test
- */
-
 int main(int argc, const char * argv[]) {
 
-    auto re = LetterCombinations::letterCombinations("23");
+    auto re = FourSum::fourSum(vector<int>{1, 0, -1, 0, -2, 2}, 0);
     cout << re.size() << endl;
 
     return 0;

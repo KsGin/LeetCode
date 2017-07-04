@@ -18,6 +18,7 @@ set(SOURCE_FILES
         LeetCode/LongestCommonPrefix.cpp
         LeetCode/ThreeSum.cpp
         LeetCode/ThreeSumClosest.cpp
-        LeetCode/LetterCombinations.cpp)
+        LeetCode/LetterCombinations.cpp
+        LeetCode/FourSum.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
