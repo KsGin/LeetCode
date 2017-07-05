@@ -7,15 +7,18 @@
 //
 
 #include <iostream>
-#include <vector>
-#include "FourSum.cpp"
+#include "RemoveNthNode.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    auto re = FourSum::fourSum(vector<int>{1, 0, -1, 0, -2, 2}, 0);
-    cout << re.size() << endl;
+    ListNode *s = new ListNode(1);
+    s->next = new ListNode(2);
+    s->next->next = new ListNode(3);
+    RemoveNthFromEnd::removeNthFromEnd(s, 1);
+
+
 
     return 0;
 }
