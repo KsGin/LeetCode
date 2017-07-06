@@ -7,13 +7,18 @@
 //
 
 #include <iostream>
-#include "ValidParentheses.cpp"
+#include "MergeTwoSortedLists.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    cout << ValidParentheses::isValid("[({})()]");
+    ListNode *l1 = new ListNode(5);
+    ListNode *l2 = new ListNode(1);
+    l2->next = new ListNode(2);
+    l2->next->next = new ListNode(4);
+
+    MergeTwoSortedLists::mergeTwoSortedLists(l1, l2);
 
     return 0;
 }
