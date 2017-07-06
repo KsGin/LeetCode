@@ -7,18 +7,13 @@
 //
 
 #include <iostream>
-#include "RemoveNthNode.cpp"
+#include "ValidParentheses.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    ListNode *s = new ListNode(1);
-    s->next = new ListNode(2);
-    s->next->next = new ListNode(3);
-    RemoveNthFromEnd::removeNthFromEnd(s, 1);
-
-
+    cout << ValidParentheses::isValid("[({})()]");
 
     return 0;
 }

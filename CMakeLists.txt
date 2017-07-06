@@ -19,6 +19,8 @@ set(SOURCE_FILES
         LeetCode/ThreeSum.cpp
         LeetCode/ThreeSumClosest.cpp
         LeetCode/LetterCombinations.cpp
-        LeetCode/FourSum.cpp LeetCode/RemoveNthNode.cpp)
+        LeetCode/FourSum.cpp
+        LeetCode/RemoveNthNode.cpp
+        LeetCode/ValidParentheses.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
