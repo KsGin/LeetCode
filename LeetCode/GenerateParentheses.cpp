@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class GenerateParenthesis {
+class GenerateParentheses {
 public:
     static vector<string> generateParenthesis(int n) {
         vector<string> res;
