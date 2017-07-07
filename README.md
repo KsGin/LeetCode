@@ -19,3 +19,4 @@
 16. [Remove Nth From List End](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveNthNode.cpp)
 17. [Valid Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidParentheses.cpp)
 18. [Merge Two Sorted Lists](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoSortedLists.cpp)
+19. [Generate Parenthesis](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GenerateParenthesis.cpp)
