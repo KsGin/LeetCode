@@ -1,7 +1,4 @@
-# LeetCode Problem
-
-<center>some problem answer are copy from other answer</center> 
-
+# LeetCode Problem : some problem answer are copy from other answer
 
 0. [Main Test File](https://github.com/KsGin/LeetCode/blob/master/LeetCode/main.cpp)
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.cpp)
