@@ -18,12 +18,9 @@ class SwapNodesInPairs
 public:
     ListNode *swapPairs(ListNode *head)
     {
+        if (!head || !head->next) return head;
 
-        if (!head) return NULL;
-        if (!head->next)
-            return head;
         auto p = head;
-
 
         auto item = p->next;
         p->next = p->next->next;
@@ -32,9 +29,8 @@ public:
         head = item;    //为head赋值
 
 
-        while (p->next)
+        while (p->next && p->next->next)
         {
-            if (!p->next->next) break;
             item = p->next->next;
             p->next->next = p->next->next->next;
             item->next = p->next;
