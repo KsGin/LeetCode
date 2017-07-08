@@ -6,12 +6,11 @@
 #include <vector>
 #include <climits>
 
-using std::string;
-using std::vector;
+using namespace std;
 
 class LongestCommonPrefix {
 public:
-    static string longestCommonPrefix(vector<string> strs) {
+    string longestCommonPrefix(vector<string> strs) {
         if (strs.size() == 0)
             return "";
         if (strs.size() == 1)

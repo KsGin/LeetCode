@@ -12,13 +12,12 @@
 #include <sstream>
 #include <string>
 
-using std::stringstream;
-using std::string;
+using namespace std;
 
 class StringToInt
 {
 public:
-	static int myAtoi(string str)
+	int myAtoi(string str)
 	{
 		if (str.length() == 0)
 		{

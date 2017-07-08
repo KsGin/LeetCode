@@ -6,14 +6,16 @@
 
 #include <string>
 #include <vector>
-using std::string;
-using std::vector;
 
-class IntToRoman {
+using namespace std;
+
+class IntToRoman
+{
 public:
-    static string intToRoman(int num) {
-        vector<int> value {1000 , 900 , 500 , 400 , 100 , 90 , 50 , 40 , 10 , 9 , 5 , 4 , 1};
-        vector<string> key {"M" , "CM" , "D" , "CD" , "C" , "XC" , "L" , "XL" , "X", "IX" , "V" , "IV" , "I"};
+    string intToRoman(int num)
+    {
+        vector<int> value{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        vector<string> key{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
         string s("");
 
@@ -21,9 +23,10 @@ public:
         {
             auto v = value.begin();
             auto k = key.begin();
-            for ( ; v != value.end() && k != key.end() ; ++v , ++k)
+            for (; v != value.end() && k != key.end(); ++v, ++k)
             {
-                if (num >= *v){
+                if (num >= *v)
+                {
                     s += *k;
                     num -= *v;
                     break;

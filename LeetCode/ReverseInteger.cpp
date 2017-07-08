@@ -25,7 +25,7 @@ class Reverse
 {
 public:
 
-	static int reverse(int x)
+	int reverse(int x)
 	{
 		auto xw = true;
 

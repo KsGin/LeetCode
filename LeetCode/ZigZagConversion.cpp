@@ -27,7 +27,7 @@ class ZigZagConversion
 {
 public:
 
-	static string zigZagConversion(string s, int numRows)
+	string zigZagConversion(string s, int numRows)
 	{
 		auto fc = numRows;
 		auto re = string("");

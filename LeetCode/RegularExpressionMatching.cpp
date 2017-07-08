@@ -49,7 +49,7 @@ using namespace std;
 
 class RegularExpressionMatching {
 public:
-    static bool isMatch(string s, string p) {
+    bool isMatch(string s, string p) {
         vector<vector<bool>> vdp(s.length()+1,vector<bool>(p.length()+1, false));
         vdp[0][0] = true;
         for (auto i = 0; i < s.length()+1; ++i) {

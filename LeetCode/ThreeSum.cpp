@@ -8,12 +8,11 @@
 #include <algorithm>
 
 
-using std::vector;
-using std::sort;
+using namespace std;
 
 class ThreeSum {
 public:
-    static vector<vector<int>> threeSum(vector<int> nums) {
+    vector<vector<int>> threeSum(vector<int> nums) {
         vector<vector<int>> res;
         if (nums.size() < 3){
             return res;

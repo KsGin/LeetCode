@@ -33,26 +33,26 @@ public:
 
     }
 
-    ListNode *mergeTwoSortedLists(ListNode *l1, ListNode *l2)
+    ListNode *mergeTwoSortedLists(ListNode *l1, ListNode *head2)
     {
         ListNode node(0), *res = &node;
-        while (l1 && l2)
+        while (l1 && head2)
         {
-            if (l1->val <= l2->val)
+            if (l1->val <= head2->val)
             {
                 res->next = l1;
                 l1 = l1->next;
             } else
             {
-                res->next = l2;
-                l2 = l2->next;
+                res->next = head2;
+                head2 = head2->next;
             }
             res = res->next;
         }
         if (l1)
             res->next = l1;
-        else if (l2)
-            res->next = l2;
+        else if (head2)
+            res->next = head2;
         return node.next;
     }
 };

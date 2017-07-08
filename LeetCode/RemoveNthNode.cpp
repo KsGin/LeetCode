@@ -13,7 +13,7 @@ struct ListNode {
 
 class RemoveNthFromEnd {
 public:
-    static ListNode *removeNthFromEnd(ListNode *head, int n) {
+    ListNode *removeNthFromEnd(ListNode *head, int n) {
         auto len = ListLength(head);
         auto idx = len - n;
         auto h = head;
@@ -36,7 +36,7 @@ public:
     }
 
     // 获得链表长度
-    static int ListLength(ListNode *head) {
+    int ListLength(ListNode *head) {
         auto len = 0;
         auto h = head;
         while (h != NULL) {

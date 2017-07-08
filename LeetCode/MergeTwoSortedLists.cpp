@@ -13,7 +13,7 @@ struct ListNode {
 
 class MergeTwoSortedLists {
 public:
-    static ListNode *mergeTwoSortedLists(ListNode *l1, ListNode *l2) {
+    ListNode *mergeTwoSortedLists(ListNode *l1, ListNode *l2) {
 
         if (!l1 && !l2) {
             return NULL;

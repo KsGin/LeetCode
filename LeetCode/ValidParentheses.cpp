@@ -9,7 +9,7 @@ using namespace std;
 
 class ValidParentheses {
 public:
-    static bool isValid(string s) {
+    bool isValid(string s) {
         stack<char> sta;
 
         for (auto i = 0; i < s.length(); ++i) {

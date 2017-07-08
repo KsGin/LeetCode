@@ -15,7 +15,7 @@ using namespace std;
 class LongestPalindrome
 {
 public:
-	static string longestPalindrome(string s)
+	string longestPalindrome(string s)
 	{
 		auto size = s.size();
 		if (size < 2)

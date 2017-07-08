@@ -14,7 +14,7 @@ using namespace std;
 class IsPalindrome
 {
 public:
-	static bool isPalindrome(int x)
+	bool isPalindrome(int x)
 	{
 		stringstream ss;
 		ss << x;

@@ -10,7 +10,7 @@ using namespace std;
 
 class LetterCombinations {
 public:
-    static vector<string> letterCombinations(string digits) {
+    vector<string> letterCombinations(string digits) {
         vector<string> s;
         if (digits.size() == 0)
             return s;
@@ -36,7 +36,7 @@ public:
         return s;
     }
 
-    static void Comb(int i /*第i层*/ ,
+    void Comb(int i /*第i层*/ ,
                      vector<string> &s /*结果集合*/,
                      vector<vector<char>> vcs/*字典*/ ,
                      string cstr /*当前字符串*/,

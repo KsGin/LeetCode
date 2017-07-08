@@ -10,7 +10,7 @@ using namespace std;
 
 class FourSum {
 public:
-    static vector<vector<int>> fourSum(vector<int> nums, int target) {
+    vector<vector<int>> fourSum(vector<int> nums, int target) {
         set<vector<int> > res;
         sort(nums.begin(), nums.end());
         for (int i = 0; i < int(nums.size() - 3); ++i) {

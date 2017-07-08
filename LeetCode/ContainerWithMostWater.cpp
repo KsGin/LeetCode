@@ -13,11 +13,11 @@
 
 #include <vector>
 
-using std::vector;
+using namespace std;
 
 class ContainerWithMostWater {
 public:
-    static int maxArea(vector<int> height) {
+     int maxArea(vector<int> height) {
         auto size = height.size();
         auto maxWater = 0;
         for (auto i = 0; i < size; ++i) {

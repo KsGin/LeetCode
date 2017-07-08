@@ -13,7 +13,7 @@
 class FindMedianSortedArrays
 {
 public:
-	static double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2)
+	double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2)
 	{
 		if (nums1.size() == 0 && nums2.size() > 0)
 		{

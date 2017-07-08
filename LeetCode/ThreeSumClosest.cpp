@@ -11,7 +11,7 @@ using namespace std;
 
 class ThreeSumClosest {
 public:
-    static int threeSumClosest(vector<int> nums, int target) {
+    int threeSumClosest(vector<int> nums, int target) {
         sort(nums.begin() , nums.end());    //STL提供的算法 Sort
         int tmp = INT_MAX , result;
         for (int k = 0; k < nums.size(); ++k) {
