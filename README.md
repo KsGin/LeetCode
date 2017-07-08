@@ -21,3 +21,4 @@
 18. [Merge Two Sorted Lists](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoSortedLists.cpp)
 19. [Generate Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GenerateParentheses.cpp)
 20. [Merge K Sorted Lists](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeKSortedLists.cpp)
+21. [Swap Nodes In Pairs](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SwapNodesInPairs.cpp)
