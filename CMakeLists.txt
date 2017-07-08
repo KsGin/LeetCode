@@ -22,6 +22,6 @@ set(SOURCE_FILES
         LeetCode/FourSum.cpp
         LeetCode/RemoveNthNode.cpp
         LeetCode/ValidParentheses.cpp
-        LeetCode/MergeTwoSortedLists.cpp LeetCode/GenerateParentheses.cpp)
+        LeetCode/MergeTwoSortedLists.cpp LeetCode/GenerateParentheses.cpp LeetCode/MergeKSortedLists.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

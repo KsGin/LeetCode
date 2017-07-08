@@ -4,10 +4,10 @@
 
 #include <vector>
 #include <algorithm>
-#include <climits>
+#include <cmath>
 
-using std::vector;
-using std::sort;
+using namespace std;
+
 
 class ThreeSumClosest {
 public:
@@ -21,8 +21,8 @@ public:
                 if (nums[i] + nums[j] == tar) {
                     return target;
                 } else {
-                    if (abs(target - (nums[i] + nums[j] + nums[k])) < tmp){
-                        tmp = abs(target - (nums[i] + nums[j] + nums[k]));
+                    if (fabs(target - (nums[i] + nums[j] + nums[k])) < tmp){
+                        tmp = fabs(target - (nums[i] + nums[j] + nums[k]));
                         result = nums[i] + nums[j] + nums[k];
                     }
                     if (nums[i] + nums[j] < tar) {

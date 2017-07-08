@@ -20,3 +20,4 @@
 17. [Valid Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidParentheses.cpp)
 18. [Merge Two Sorted Lists](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoSortedLists.cpp)
 19. [Generate Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GenerateParentheses.cpp)
+20. [Merge K Sorted Lists](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeKSortedLists.cpp)

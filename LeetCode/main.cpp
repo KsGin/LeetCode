@@ -7,18 +7,23 @@
 //
 
 #include <iostream>
-#include "MergeTwoSortedLists.cpp"
+#include "MergeKSortedLists.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    ListNode *l1 = new ListNode(5);
-    ListNode *l2 = new ListNode(1);
-    l2->next = new ListNode(2);
-    l2->next->next = new ListNode(4);
+    ListNode *l1 = new ListNode(3);
+    l1->next = new ListNode(6);
+    l1->next->next = new ListNode(7);
 
-    MergeTwoSortedLists::mergeTwoSortedLists(l1, l2);
+    ListNode *l2 = new ListNode(0);
+    l2->next = new ListNode(2);
+    l2->next->next = new ListNode(5);
+
+
+
+    MergeKSortedLists::mergeKLists(vector<ListNode*> {l2 , l1});
 
     return 0;
 }
