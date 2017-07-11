@@ -24,4 +24,4 @@
 21. [Swap Nodes In Pairs](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SwapNodesInPairs.cpp)
 22. [Reverse Nodes In K-Group](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseNodesInKGroup.cpp)
 23. [Remove Duplicates From Sorted Array](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveDuplicates.cpp)
-24. [Remove Element](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveElement)
+24. [Remove Element](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveElement.cpp)
