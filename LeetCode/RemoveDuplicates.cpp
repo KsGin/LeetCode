@@ -13,19 +13,17 @@ public:
 
         auto cur = nums[0];
         auto it = nums.begin() + 1;
-        auto length = 1;
 
         while (it != nums.end()) {
             if (*it != cur) {
                 cur = *it;
                 it++;
-                length++;
             } else {
                 it = nums.erase(it);
             }
         }
 
-        return length;
+        return nums.size();
 
     }
 };
