@@ -25,3 +25,4 @@
 22. [Reverse Nodes In K-Group](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseNodesInKGroup.cpp)
 23. [Remove Duplicates From Sorted Array](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveDuplicates.cpp)
 24. [Remove Element](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveElement.cpp)
+25. [Implement StrStr](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ImplementStrStr.cpp)

@@ -7,18 +7,15 @@
 //
 
 #include <iostream>
-#include "ReverseNodesInKGroup.cpp"
+#include "ImplementStrStr.cpp"
+
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    ListNode* listNode = new ListNode(1);
-//    listNode->next = new ListNode(2);
-//    listNode->next->next = new ListNode(3);
-//    listNode->next->next->next = new ListNode(4);
-//    listNode->next->next->next->next = new ListNode(5);
-    ReverseNodesInKGroup reverseNodesInKGroup;
-    reverseNodesInKGroup.reverseKGroup(listNode , 2);
-
+    ImplementStrStr s;
+    auto i = s.strStr("mississippi", "issip");
+    cout << i << endl;
     return 0;
 }
