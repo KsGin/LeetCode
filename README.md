@@ -26,3 +26,5 @@
 23. [Remove Duplicates From Sorted Array](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveDuplicates.cpp)
 24. [Remove Element](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RemoveElement.cpp)
 25. [Implement StrStr](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ImplementStrStr.cpp)
+26. [Divide Two Integers](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DivideTwoIntegers.cpp)
+27. [Substring With Concatenation Of All Words](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SubstringWithConcatenationOfAllWords.cpp)
