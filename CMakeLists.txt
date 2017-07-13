@@ -29,6 +29,8 @@ set(SOURCE_FILES
         LeetCode/ReverseNodesInKGroup.cpp
         LeetCode/RemoveDuplicates.cpp
         LeetCode/RemoveElement.cpp
-        LeetCode/ImplementStrStr.cpp LeetCode/DivideTwoIntegers.cpp LeetCode/SubstringWithConcatenationOfAllWords.cpp)
+        LeetCode/ImplementStrStr.cpp
+        LeetCode/DivideTwoIntegers.cpp
+        LeetCode/SubstringWithConcatenationOfAllWords.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

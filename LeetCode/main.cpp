@@ -7,15 +7,10 @@
 //
 
 #include <iostream>
-#include "ImplementStrStr.cpp"
-
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-
-    ImplementStrStr s;
-    auto i = s.strStr("mississippi", "issip");
-    cout << i << endl;
+    cout << "!!!!!!!" << endl;
     return 0;
 }
