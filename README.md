@@ -1,6 +1,5 @@
 # LeetCode Problem : some problem answer are copy from other answer
 
-0. [Main Test File](https://github.com/KsGin/LeetCode/blob/master/LeetCode/main.hpp)
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.hpp)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.hpp)
 3. [Zig Zag Conversuin](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ZigZagConversion.hpp)
