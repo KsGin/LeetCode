@@ -2,7 +2,8 @@
 // Created by KsGin on 2017/7/13.
 //
 
-#include <vector>
+#pragma once
+#include "vector"
 #include <string>
 #include <unordered_map>
 

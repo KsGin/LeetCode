@@ -7,6 +7,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
+#pragma once
 #include <string>
 #include <vector>
 

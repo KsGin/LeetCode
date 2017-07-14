@@ -2,6 +2,7 @@
 // Created by KsGin on 2017/7/6.
 //
 
+#pragma once
 #include <string>
 #include <stack>
 

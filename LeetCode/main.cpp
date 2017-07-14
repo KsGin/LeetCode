@@ -7,15 +7,17 @@
 //
 
 #include <vector>
-#include "NextPermutation.cpp"
+#include "NextPermutation.hpp"
 
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
     vector<int> v {1, 2};
 
     NextPermutation np;
     np.nextPermutation(v);
 
+
+	system("pause");
     return 0;
 }

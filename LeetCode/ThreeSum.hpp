@@ -4,6 +4,7 @@
 // return a + b + c
 //
 
+#pragma once
 #include <vector>
 #include <algorithm>
 

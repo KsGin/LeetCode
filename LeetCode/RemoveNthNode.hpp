@@ -2,6 +2,7 @@
 // Created by KsGin on 2017/7/5.
 //
 
+#pragma once
 #include <iostream>
 
 struct ListNode {

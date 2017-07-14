@@ -2,7 +2,8 @@
 // Created by KsGin on 2017/6/28.
 //
 
-#include <string>
+#pragma once
+#include "string"
 #include <vector>
 
 using namespace std;

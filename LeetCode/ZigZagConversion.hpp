@@ -17,9 +17,8 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include <string>
+#pragma once
 #include <vector>
-#include <iostream>
 
 using namespace std;
 

@@ -2,6 +2,7 @@
 // Created by KsGin on 2017/7/12.
 //
 
+#pragma once
 #include <string>
 
 using namespace std;

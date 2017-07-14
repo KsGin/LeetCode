@@ -4,6 +4,7 @@
 // Created by ksgin on 2017/6/26.
 //
 
+#pragma once
 #include <string>
 #include <vector>
 

@@ -42,7 +42,7 @@
  */
 
 
-#include <string>
+#pragma once
 #include <vector>
 
 using namespace std;

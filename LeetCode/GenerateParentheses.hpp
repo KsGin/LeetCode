@@ -2,6 +2,7 @@
 // Created by ksgin on 2017/7/7.
 //
 
+#pragma once
 #include <vector>
 #include <string>
 

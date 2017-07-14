@@ -2,7 +2,7 @@
 // Created by KsGin on 2017/7/13.
 //
 
-#include <climits>
+#pragma once
 #include <iostream>
 
 class DivideTwoIntegers {

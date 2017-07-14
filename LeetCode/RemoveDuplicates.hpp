@@ -2,6 +2,7 @@
 // Created by KsGin on 2017/7/11.
 //
 
+#pragma once
 #include <vector>
 
 using namespace std;

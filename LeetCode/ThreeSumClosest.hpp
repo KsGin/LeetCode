@@ -2,6 +2,7 @@
 // Created by KsGin on 2017/7/1.
 //
 
+#pragma once
 #include <vector>
 #include <algorithm>
 #include <climits>
