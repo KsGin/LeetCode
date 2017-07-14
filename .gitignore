@@ -3,3 +3,6 @@
 .vs/
 CMakeFiles/
 cmake-build-debug/
+Debug/
+*.sln
+*.vc*

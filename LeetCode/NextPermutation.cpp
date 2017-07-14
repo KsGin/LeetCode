@@ -19,7 +19,7 @@ public:
             return;
         }
 
-        int i = j + 1;
+	    auto i = j + 1;
         while (i < n && nums[i] > nums[j]) i++;
         i--;
 

@@ -6,14 +6,13 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include <iostream>
 #include <vector>
 #include "NextPermutation.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    vector<int> v = {1, 2};
+    vector<int> v {1, 2};
 
     NextPermutation np;
     np.nextPermutation(v);
