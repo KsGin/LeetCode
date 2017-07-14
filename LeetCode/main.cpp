@@ -7,10 +7,16 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "NextPermutation.cpp"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    cout << "!!!!!!!" << endl;
+    vector<int> v = {1, 2};
+
+    NextPermutation np;
+    np.nextPermutation(v);
+
     return 0;
 }

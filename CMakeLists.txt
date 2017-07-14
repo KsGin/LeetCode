@@ -31,6 +31,6 @@ set(SOURCE_FILES
         LeetCode/RemoveElement.cpp
         LeetCode/ImplementStrStr.cpp
         LeetCode/DivideTwoIntegers.cpp
-        LeetCode/SubstringWithConcatenationOfAllWords.cpp)
+        LeetCode/SubstringWithConcatenationOfAllWords.cpp LeetCode/NextPermutation.cpp)
 
 add_executable(LeetCode ${SOURCE_FILES})

@@ -28,3 +28,4 @@
 25. [Implement StrStr](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ImplementStrStr.cpp)
 26. [Divide Two Integers](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DivideTwoIntegers.cpp)
 27. [Substring With Concatenation Of All Words](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SubstringWithConcatenationOfAllWords.cpp)
+28. [Next Permutation](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NextPermutation.cpp)
