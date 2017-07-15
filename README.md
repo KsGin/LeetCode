@@ -28,4 +28,4 @@
 26. [Divide Two Integers](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DivideTwoIntegers.hpp)
 27. [Substring With Concatenation Of All Words](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SubstringWithConcatenationOfAllWords.hpp)
 28. [Next Permutation](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NextPermutation.hpp)
-29. [Longest Valid Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestValidParentheses.cpp)
+29. [Longest Valid Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestValidParentheses.hpp)
