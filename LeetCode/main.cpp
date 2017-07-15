@@ -6,17 +6,18 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include <vector>
-#include "NextPermutation.hpp"
+#include "../LongestValidParentheses.hpp"
+#include <iostream>
 
 using namespace std;
 
 int main() {
-    vector<int> v {1, 2};
 
-    NextPermutation np;
-    np.nextPermutation(v);
+	LongestValidParentheses lvp;
 
+	auto length = lvp.longestValidParentheses("(()(((()");
+
+	cout << length << endl;
 
 	system("pause");
     return 0;
