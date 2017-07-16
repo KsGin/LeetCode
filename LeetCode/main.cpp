@@ -6,18 +6,20 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "../LongestValidParentheses.hpp"
+#include "../SearchInRotatedSortedArray.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-	LongestValidParentheses lvp;
+	SearchInRotatedSortedArray srsa;
 
-	auto length = lvp.longestValidParentheses("(()(((()");
+	vector<int> v = { 3 , 1 };
 
-	cout << length << endl;
+	auto idx = srsa.search(v , 1);
+
+	cout << idx << endl;
 
 	system("pause");
     return 0;
