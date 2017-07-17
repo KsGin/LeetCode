@@ -6,8 +6,8 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "../SearchInRotatedSortedArray.hpp"
 #include <iostream>
+#include "SearchInRotatedSortedArray.hpp"
 
 using namespace std;
 
