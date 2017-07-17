@@ -30,3 +30,4 @@
 28. [Next Permutation](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NextPermutation.hpp)
 29. [Longest Valid Parentheses](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestValidParentheses.hpp)
 30. [Search In Rotated Sorted Array](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SearchInRotatedSortedArray.hpp)
+31. [Search for a Range](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SearchRange.hpp)
