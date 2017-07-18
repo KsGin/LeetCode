@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Solution {
+class SearchInsertPosition {
 public:
 	int searchInsert(vector<int>& nums, int target) {
 		if (nums.size() == 0 || target <= nums[0])
