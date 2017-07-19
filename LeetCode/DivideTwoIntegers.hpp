@@ -29,7 +29,6 @@ public:
             }
             i--;
         }
-
         return isNeg ? 0 - res : res;
     }
 };
