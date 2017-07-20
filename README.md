@@ -33,3 +33,4 @@
 31. [Search for a Range](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SearchRange.hpp)
 32. [Search Insert Position](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SearchInsertPosition.hpp)
 33. [Valid Sudoku](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidSudoku.cpp)
+34. [Sudoku Solver](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SudokuSolver.hpp)
