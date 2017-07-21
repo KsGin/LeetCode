@@ -7,19 +7,14 @@
 //
 
 #include <iostream>
-#include "SearchInRotatedSortedArray.hpp"
+#include "CountAndSay.hpp"
 
 using namespace std;
 
 int main() {
 
-	SearchInRotatedSortedArray srsa;
-
-	vector<int> v = { 3 , 1 };
-
-	auto idx = srsa.search(v , 1);
-
-	cout << idx << endl;
+	CountAndSay cas;
+	cas.countAndSay(4);
 
 	system("pause");
     return 0;
