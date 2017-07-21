@@ -35,3 +35,5 @@
 33. [Valid Sudoku](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidSudoku.cpp)
 34. [Sudoku Solver](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SudokuSolver.hpp)
 35. [Count And Say](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountAndSay.hpp)
+36. [Combination Sum](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSum.hpp)
+37. [Combination Sum II](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSumII.cpp)
