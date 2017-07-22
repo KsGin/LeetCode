@@ -37,3 +37,4 @@
 35. [Count And Say](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountAndSay.hpp)
 36. [Combination Sum](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSum.hpp)
 37. [Combination Sum II](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSumII.hpp)
+38. [First Missing Positive](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FirstMissingPositive.hpp)
