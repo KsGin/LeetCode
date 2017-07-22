@@ -42,6 +42,6 @@ set(SOURCE_FILES
         LeetCode/CountAndSay.hpp
         LeetCode/SudokuSolver.hpp
         LeetCode/CombinationSumII.hpp
-        LeetCode/CombinationSum.hpp)
+        LeetCode/CombinationSum.hpp LeetCode/TrappingRainWater.hpp LeetCode/TrappingRainWater.hpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
