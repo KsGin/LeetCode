@@ -10,27 +10,6 @@
 using namespace std;
 
 class MultiplyStrings {
-private:
-    string simple_multiply(string num , int n){
-        if (n == 0 || num == "0") {
-            return "0";
-        }
-        int tmp = 0;
-        for (int j = (int) (num.size() - 1); j >= 0; --j) {
-            tmp = (num[j] - 48) * n + tmp;
-            if (tmp / 10 == 0){
-                num[j] = (char) (tmp + 48);
-                tmp = 0;
-            }else{
-                num[j] = (char) (tmp % 10 + 48);
-                tmp = tmp / 10;
-            }
-        }
-        stringstream ss;
-        ss << tmp;
-        if (tmp > 0) num.insert(0 , ss.str());
-        return num;
-    }
 public:
     string multiply(string num1, string num2) { //大正整数相乘
         if (num1 == "0" || num2 == "0") {
@@ -38,12 +17,31 @@ public:
         }
         int idx = 0;
         string ret("0");
-        for (int i = (int) (num2.size() - 1); i >= 0 ; --i) {
-            string tmp("");
+        for (auto i = (int) (num2.size() - 1); i >= 0 ; --i) {
+            string tmp;
             for (int j = 0; j < idx; ++j) {
                 tmp.push_back('0');
             }
-            ret = add(ret , simple_multiply(num1+tmp , num2[i] - 48));
+            ret = add(ret , [](string num, int n)->string{
+                if (n == 0 || num == "0") {
+                    return "0";
+                }
+                int ttmp = 0;
+                for (auto j = (int) (num.size() - 1); j >= 0; --j) {
+                    ttmp = (num[j] - 48) * n + ttmp;
+                    if (ttmp / 10 == 0){
+                        num[j] = (char) (ttmp + 48);
+                        ttmp = 0;
+                    }else{
+                        num[j] = (char) (ttmp % 10 + 48);
+                        ttmp = ttmp / 10;
+                    }
+                }
+                stringstream ss;
+                ss << ttmp;
+                if (ttmp > 0) num.insert(0 , ss.str());
+                return num;
+            }(num1+tmp , num2[i] - 48));
             idx++;
         }
         return ret;
@@ -62,7 +60,7 @@ public:
             }
         }
         int tmp = 0;
-        for (int j = (int) (num1.size() - 1); j >= 0; --j) {
+        for (auto j = (int) (num1.size() - 1); j >= 0; --j) {
             tmp = num1[j] + num2[j] + tmp - 96;
             if (tmp < 10) {
                 num1[j] = (char) (tmp + 48);
