@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "CountAndSay.hpp"
+#include "MultiplyStrings.hpp"
 
 using namespace std;
 
 int main() {
 
-	CountAndSay cas;
-	cas.countAndSay(4);
+	MultiplyStrings ms;
+	cout << ms.multiply("9" , "99");
     return 0;
 }

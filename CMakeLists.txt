@@ -43,6 +43,6 @@ set(SOURCE_FILES
         LeetCode/SudokuSolver.hpp
         LeetCode/CombinationSumII.hpp
         LeetCode/CombinationSum.hpp
-        LeetCode/TrappingRainWater.hpp)
+        LeetCode/TrappingRainWater.hpp LeetCode/MultiplyStrings.hpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
