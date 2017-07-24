@@ -14,6 +14,6 @@ using namespace std;
 int main() {
 
 	MultiplyStrings ms;
-	cout << ms.multiply("9" , "99");
+	cout << ms.multiply("99999" , "99");
     return 0;
 }
