@@ -15,7 +15,5 @@ int main() {
 
 	CountAndSay cas;
 	cas.countAndSay(4);
-
-	system("pause");
     return 0;
 }
