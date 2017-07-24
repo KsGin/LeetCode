@@ -39,3 +39,4 @@
 37. [Combination Sum II](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSumII.hpp)
 38. [First Missing Positive](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FirstMissingPositive.hpp)
 39. [Trapping Rain Water](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TrappingRainWater.hpp)
+40. [Multiply Strings](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MultiplyStrings.hpp)
