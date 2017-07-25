@@ -7,13 +7,13 @@
 //
 
 #include <iostream>
-#include "MultiplyStrings.hpp"
+#include "WildcardMatching.hpp"
 
 using namespace std;
 
 int main() {
 
-	MultiplyStrings ms;
-	cout << ms.multiply("99999" , "99");
+	WildcardMatching wm;
+	cout << wm.isMatch("aaa" , "?*");
     return 0;
 }
