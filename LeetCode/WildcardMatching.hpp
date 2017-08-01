@@ -16,14 +16,6 @@ using namespace std;
 class WildcardMatching {
 public:
     bool isMatch(string s, string p) {
-        if (s.empty() && p.empty()) return true;
-        if (p.empty()) return false;
-        if (s.empty()){
-            for (int i = 0; i < p.size(); ++i) {
-                if(p[i] != '*') return false;
-            }
-            return true;
-        }
         
     }
 };
