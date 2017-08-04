@@ -41,3 +41,4 @@
 39. [Trapping Rain Water](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TrappingRainWater.hpp)
 40. [Multiply Strings](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MultiplyStrings.hpp)
 41. [Wildcard Matching](https://github.com/KsGin/LeetCode/blob/master/LeetCode/WildcardMatching.hpp)
+42. [Jump Game 2](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JumpGame2.hpp)
