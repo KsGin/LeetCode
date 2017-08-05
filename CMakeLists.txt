@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 project(LeetCode)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
         LeetCode/ContainerWithMostWater.hpp
@@ -43,6 +43,10 @@ set(SOURCE_FILES
         LeetCode/SudokuSolver.hpp
         LeetCode/CombinationSumII.hpp
         LeetCode/CombinationSum.hpp
-        LeetCode/TrappingRainWater.hpp LeetCode/MultiplyStrings.hpp LeetCode/WildcardMatching.hpp LeetCode/JumpGame2.hpp)
+        LeetCode/TrappingRainWater.hpp
+        LeetCode/MultiplyStrings.hpp
+        LeetCode/WildcardMatching.hpp
+        LeetCode/JumpGame2.hpp
+        LeetCode/Permutations.hpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
