@@ -11,9 +11,14 @@
 #define LEETCODE_PERMUTATIONS_HPP
 
 #include <vector>
-#include <algorithm>
 
 using namespace std;
+
+template <typename T> void swap(T& a , T& b){
+    T c = a;
+    a = b;
+    b = c;
+}
 
 class Permutations  {
 public:

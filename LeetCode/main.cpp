@@ -7,13 +7,10 @@
 //
 
 #include <iostream>
-#include "WildcardMatching.hpp"
 
 using namespace std;
 
 int main() {
 
-	WildcardMatching wm;
-	cout << wm.isMatch("aaa" , "?*");
     return 0;
 }
