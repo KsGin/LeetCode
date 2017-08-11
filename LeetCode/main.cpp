@@ -14,7 +14,7 @@ using namespace std;
 
 int main() {
 
-    vector<vector<int>> img{vector<int>{1,2},vector{3,4}};
+    vector<vector<int>> img{vector<int>{1,2,3},vector<int>{4,5,6},vector<int>{7,8,9}};
 
     RotateImage ri;
     ri.rotate(img);

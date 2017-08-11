@@ -12,21 +12,26 @@
 
 using namespace std;
 
-template <typename T> void swap(T& a , T& b){
-    T c = a;
-    a = b;
-    b = c;
-}
-
 class RotateImage {
 public:
-    void rotate(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        if (n < 2) return;
-        for (int i = 0; i < n; ++i) {
-            for (int j = i; j < n; ++j) {
-                swap(matrix[i][j],matrix[j][i]);
-            }
+    void rotate(vector<vector<int>> &matrix, size_t topleft, size_t bottomright) {
+        for (size_t i = 0; i < bottomright - topleft; ++i) {
+            int tmp = matrix[topleft][topleft + i];
+            matrix[topleft][topleft + i] = matrix[bottomright - i][topleft];
+            matrix[bottomright - i][topleft] = matrix[bottomright][bottomright - i];
+            matrix[bottomright][bottomright - i] = matrix[topleft + i][bottomright];
+            matrix[topleft + i][bottomright] = tmp;
+        }
+    }
+
+    void rotate(vector<vector<int>> &matrix) {
+        if (matrix.size() <= 0)
+            return;
+        size_t topleft = 0, bottomright = matrix.size() - 1;
+        while (topleft < bottomright) {
+            rotate(matrix, topleft, bottomright);
+            ++topleft;
+            --bottomright;
         }
     }
 };
