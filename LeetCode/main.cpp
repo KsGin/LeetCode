@@ -7,10 +7,17 @@
 //
 
 #include <iostream>
+#include <vector>
+#include "RotateImage.hpp"
 
 using namespace std;
 
 int main() {
+
+    vector<vector<int>> img{vector<int>{1,2},vector{3,4}};
+
+    RotateImage ri;
+    ri.rotate(img);
 
     return 0;
 }
