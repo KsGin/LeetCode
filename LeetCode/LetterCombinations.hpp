@@ -32,7 +32,7 @@ public:
             vcs.push_back(digits_map[digits[i] - 48]);
         }
 
-        Comb(0, s, vcs, "", (int) digits.length());
+        Comb(0, s, vcs, "", static_cast<int>(digits.length()));
 
         return s;
     }
