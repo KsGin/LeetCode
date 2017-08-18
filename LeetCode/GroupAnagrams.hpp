@@ -1,13 +1,18 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <unordered_map>
 
 using std::string;
 using std::vector;
 using std::sort;
+using std::unordered_map;
 
 class GroupAnagrams {
 public:
+    /**
+     * Time limit
+     */
     vector<vector<string>> groupAnagrams(vector<string> &strs) {
         vector<vector<string>> ret(0);
         if (strs.size() == 0) return ret;
@@ -30,6 +35,28 @@ public:
             }
         }
 
+        for (auto itb = ret.begin(); itb != ret.end(); ++itb) {
+            sort((*itb).begin(), (*itb).end());
+        }
+        return ret;
+    }
+
+    /**
+     * right answer
+     */
+    vector<vector<string>> groupAnagramsR(vector<string> &strs) {
+        vector<vector<string>> ret(0);
+        if (strs.size() == 0) return ret;
+        unordered_map<string , vector<string>> um(0);
+        for (auto it = strs.begin(); it != strs.end() ; ++it) {
+            auto tmp = *it;
+            sort(tmp.begin() , tmp.end());
+            um[tmp].push_back(*it);
+        }
+
+        for (auto it = um.begin(); it != um.end() ; ++it) {
+            ret.push_back((*it).second);
+        }
 
         for (auto itb = ret.begin(); itb != ret.end(); ++itb) {
             sort((*itb).begin(), (*itb).end());
