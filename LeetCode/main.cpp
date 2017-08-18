@@ -8,16 +8,16 @@
 
 #include <iostream>
 #include <vector>
-#include "RotateImage.hpp"
+#include "GroupAnagrams.hpp"
 
 using namespace std;
 
 int main() {
 
-    vector<vector<int>> img{vector<int>{1,2,3},vector<int>{4,5,6},vector<int>{7,8,9}};
+    vector<string> a {"eat" , "tea" , "tan" , "ate" , "nat" , "bat"};
 
-    RotateImage ri;
-    ri.rotate(img);
+    GroupAnagrams ga;
+    ga.groupAnagrams(a);
 
     return 0;
 }
