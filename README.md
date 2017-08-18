@@ -1,4 +1,4 @@
-# LeetCode Problem : some problem answer are copy from other answer
+# LeetCode Problem
 
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.hpp)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.hpp)
