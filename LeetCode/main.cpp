@@ -7,17 +7,14 @@
 //
 
 #include <iostream>
-#include <vector>
-#include "GroupAnagrams.hpp"
+#include "Pow.hpp"
 
 using namespace std;
 
 int main() {
 
-    vector<string> a {"eat" , "tea" , "tan" , "ate" , "nat" , "bat"};
-
-    GroupAnagrams ga;
-    ga.groupAnagrams(a);
+    Pow p;
+    cout << p.myPow(0.00001,2147483647);
 
     return 0;
 }
