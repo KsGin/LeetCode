@@ -47,6 +47,6 @@ set(SOURCE_FILES
         LeetCode/MultiplyStrings.hpp
         LeetCode/WildcardMatching.hpp
         LeetCode/JumpGame2.hpp
-        LeetCode/Permutations.hpp LeetCode/PermutationsTwo.hpp LeetCode/RotateImage.hpp LeetCode/GroupAnagrams.hpp LeetCode/Pow.hpp)
+        LeetCode/Permutations.hpp LeetCode/PermutationsTwo.hpp LeetCode/RotateImage.hpp LeetCode/GroupAnagrams.hpp LeetCode/Pow.hpp LeetCode/NQueens.hpp)
 
 add_executable(LeetCode ${SOURCE_FILES})
