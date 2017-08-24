@@ -1,4 +1,4 @@
-# LeetCode Problem : follow the order of the questions (2017-7-4 --- 2017-8-22)
+# LeetCode Problem : follow the order of the questions number (2017-7-4 --- 2017-8-22)
 
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.hpp)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.hpp)
