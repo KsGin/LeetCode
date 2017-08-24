@@ -1,4 +1,4 @@
-# LeetCode Problem
+# LeetCode Problem : follow the order of the questions (2017-7-4 --- 2017-8-22)
 
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.hpp)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.hpp)
@@ -47,3 +47,5 @@
 45. [Rotate Image](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RotateImage.hpp)
 46. [Group Anagrams](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GroupAnagrams.hpp)
 47. [Pow](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Pow.hpp)
+
+# according to subject pass rate (2017-8-24 --- ?)
