@@ -7,14 +7,17 @@
 //
 
 #include <iostream>
-#include "Pow.hpp"
+#include "EncodeAndDecodeTinyURL.hpp"
 
 using namespace std;
 
 int main() {
 
-    Pow p;
-    cout << p.myPow(0.00001,2147483647);
+    EncodeAndDecodeTinyURL edt;
 
+    string s = edt.encode("http://sss.com");
+    string t = edt.decode(s);
+
+    cout << s << endl << t << endl;
     return 0;
 }

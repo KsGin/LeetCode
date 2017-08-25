@@ -49,3 +49,5 @@
 47. [Pow](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Pow.hpp)
 
 # according to subject pass rate (2017-8-24 --- ?)
+
+1. [Encode and Decode TinyURL(LeetCode#535)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EncodeAndDecodeTinyURL.hpp)
