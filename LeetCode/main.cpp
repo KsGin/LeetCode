@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "MaximumBinaryTree.hpp"
+#include "MaximumBinaryTree.h"
 
 using namespace std;
 
