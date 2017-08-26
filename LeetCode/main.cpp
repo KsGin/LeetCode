@@ -7,17 +7,16 @@
 //
 
 #include <iostream>
-#include "EncodeAndDecodeTinyURL.hpp"
+#include "MaximumBinaryTree.hpp"
 
 using namespace std;
 
 int main() {
 
-    EncodeAndDecodeTinyURL edt;
+    MaximumBinaryTree mbt;
 
-    string s = edt.encode("http://sss.com");
-    string t = edt.decode(s);
+    vector<int> v {3, 2 , 1 , 6 , 0 , 5};
 
-    cout << s << endl << t << endl;
+    mbt.constructMaximumBinaryTree(v);
     return 0;
 }
