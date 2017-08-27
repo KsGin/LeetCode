@@ -7,8 +7,6 @@
 #include <vector>
 #include <cstdio>
 
-using std::vector;
-
 #ifndef LEETCODE_MAXIMUMBINARYTREE_HPP
 #define LEETCODE_MAXIMUMBINARYTREE_HPP
 
@@ -21,13 +19,13 @@ struct TreeNode {
 
 class MaximumBinaryTree {
 public:
-    TreeNode* constructMaximumBinaryTree(vector<int> nums) {
+    TreeNode* constructMaximumBinaryTree(std::vector<int> nums) {
         TreeNode * root = createTree(nums);
         return root;
     }
 
 
-    TreeNode* createTree(vector<int> nums){
+    TreeNode* createTree(std::vector<int> nums){
         if (nums.size() == 0) return NULL;
         int idx = 0;
         for (int i = 1; i < nums.size(); ++i) {
