@@ -7,16 +7,15 @@
 //
 
 #include <iostream>
-#include "MaximumBinaryTree.h"
+#include "HammingDistance.h"
 
 using namespace std;
 
 int main() {
 
-    MaximumBinaryTree mbt;
+    HammingDistance hd;
 
-    vector<int> v {3, 2 , 1 , 6 , 0 , 5};
+    cout << hd.hammingDistance(14 , 2);
 
-    mbt.constructMaximumBinaryTree(v);
     return 0;
 }

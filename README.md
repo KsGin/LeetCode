@@ -52,3 +52,4 @@
 
 1. [Encode and Decode TinyURL(LeetCode#535)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EncodeAndDecodeTinyURL.h)
 2. [Maximum Binary Tree(LeetCode#654)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumBinaryTree.h)
+3. [Hamming Distance(LeetCode#461)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/HammingDistance.h)

@@ -47,6 +47,6 @@ set(SOURCE_FILES
         LeetCode/MultiplyStrings.h
         LeetCode/WildcardMatching.h
         LeetCode/JumpGame2.h
-        LeetCode/Permutations.h LeetCode/PermutationsTwo.h LeetCode/RotateImage.h LeetCode/GroupAnagrams.h LeetCode/Pow.h LeetCode/EncodeAndDecodeTinyURL.h LeetCode/MaximumBinaryTree.h)
+        LeetCode/Permutations.h LeetCode/PermutationsTwo.h LeetCode/RotateImage.h LeetCode/GroupAnagrams.h LeetCode/Pow.h LeetCode/EncodeAndDecodeTinyURL.h LeetCode/MaximumBinaryTree.h LeetCode/HammingDistance.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
