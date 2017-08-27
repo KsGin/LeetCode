@@ -3,10 +3,7 @@
 #include <algorithm>
 #include <unordered_map>
 
-using std::string;
-using std::vector;
-using std::sort;
-using std::unordered_map;
+using namespace std;
 
 class GroupAnagrams {
 public:
