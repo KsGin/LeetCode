@@ -57,3 +57,4 @@
 5. [Judge Route Circle(LeetCode#657)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JudgeRouteCircle.h)
 6. [Merge Two Binary Trees(LeetCode#617)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoBinaryTrees.h)
 7. [Array Partition One(LeetCode#561)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ArrayPartitionOne.h)
+8. [Swap Salary(LeetCode#627)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SwapSalary.sql)
