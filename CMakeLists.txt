@@ -54,6 +54,9 @@ set(SOURCE_FILES
         LeetCode/Pow.h
         LeetCode/EncodeAndDecodeTinyURL.h
         LeetCode/MaximumBinaryTree.h
-        LeetCode/HammingDistance.h LeetCode/JudgeRouteCircle.h LeetCode/MergeTwoBinaryTrees.h LeetCode/ArrayPartitionOne.h)
+        LeetCode/HammingDistance.h
+        LeetCode/JudgeRouteCircle.h
+        LeetCode/MergeTwoBinaryTrees.h
+        LeetCode/ArrayPartitionOne.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
