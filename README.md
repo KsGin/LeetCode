@@ -54,3 +54,4 @@
 2. [Maximum Binary Tree(LeetCode#654)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumBinaryTree.h)
 3. [Hamming Distance(LeetCode#461)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/HammingDistance.h)
 4. [Judge Route Circle(LeetCode#657)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JudgeRouteCircle.h)
+5. [Merge Two Binary Trees(LeetCode#617)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoBinaryTrees.h)
