@@ -55,3 +55,4 @@
 3. [Hamming Distance(LeetCode#461)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/HammingDistance.h)
 4. [Judge Route Circle(LeetCode#657)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JudgeRouteCircle.h)
 5. [Merge Two Binary Trees(LeetCode#617)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeTwoBinaryTrees.h)
+6. [Array Partition One(LeetCode#561)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ArrayPartitionOne.h)
