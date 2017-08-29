@@ -57,6 +57,6 @@ set(SOURCE_FILES
         LeetCode/HammingDistance.h
         LeetCode/JudgeRouteCircle.h
         LeetCode/MergeTwoBinaryTrees.h
-        LeetCode/ArrayPartitionOne.h)
+        LeetCode/ArrayPartitionOne.h LeetCode/ComplexNumberMultiplication.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
