@@ -61,3 +61,4 @@
 9. [Complex Number Multiplication(LeetCode#537)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ComplexNumberMultiplication.h)
 10. [Battleships In A Board(LeetCode#419)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BattleshipsInABoard.h)
 11. [Counting Bits(LeetCode#338)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountingBits.h)
+12. [Number Complement(LeetCode#476)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NumberComplement.h)

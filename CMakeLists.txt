@@ -60,6 +60,7 @@ set(SOURCE_FILES
         LeetCode/ArrayPartitionOne.h
         LeetCode/ComplexNumberMultiplication.h
         LeetCode/BattleshipsInABoard.h
-        LeetCode/CountingBits.h)
+        LeetCode/CountingBits.h
+        LeetCode/NumberComplement.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
