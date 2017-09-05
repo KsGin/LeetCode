@@ -7,15 +7,15 @@
 //
 
 #include <iostream>
-#include "HammingDistance.h"
+#include "ReverseWordsInAStringThree.h"
 
 using namespace std;
 
 int main() {
 
-    HammingDistance hd;
+    ReverseWordsInAStringThree rwist;
 
-    cout << hd.hammingDistance(14 , 2);
+    cout << rwist.reverseWords("Let's take LeetCode contest");
 
     return 0;
 }
