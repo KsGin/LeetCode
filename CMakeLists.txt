@@ -61,6 +61,6 @@ set(SOURCE_FILES
         LeetCode/ComplexNumberMultiplication.h
         LeetCode/BattleshipsInABoard.h
         LeetCode/CountingBits.h
-        LeetCode/NumberComplement.h LeetCode/KeyboardRow.h LeetCode/ReverseWordsInAStringThree.h LeetCode/ReverseString.h)
+        LeetCode/NumberComplement.h LeetCode/KeyboardRow.h LeetCode/ReverseWordsInAStringThree.h LeetCode/ReverseString.h LeetCode/DistributeCandies.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
