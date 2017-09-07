@@ -65,6 +65,6 @@ set(SOURCE_FILES
         LeetCode/KeyboardRow.h
         LeetCode/ReverseWordsInAStringThree.h
         LeetCode/ReverseString.h
-        LeetCode/DistributeCandies.h)
+        LeetCode/DistributeCandies.h LeetCode/ReshapeTheMatrix.h)
 
 add_executable(LeetCode ${SOURCE_FILES})

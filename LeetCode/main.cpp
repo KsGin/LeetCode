@@ -7,15 +7,17 @@
 //
 
 #include <iostream>
-#include "ReverseWordsInAStringThree.h"
+#include "ReshapeTheMatrix.h"
 
 using namespace std;
 
 int main() {
 
-    ReverseWordsInAStringThree rwist;
+    ReshapeTheMatrix rtm;
 
-    cout << rwist.reverseWords("Let's take LeetCode contest");
+    vector<vector<int>>  vv{ {1,2 } , {3,4}};
+
+    rtm.matrixReshape(vv , 1 , 4);
 
     return 0;
 }
