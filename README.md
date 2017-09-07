@@ -48,7 +48,7 @@
 46. [Group Anagrams](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GroupAnagrams.h)
 47. [Pow](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Pow.h)
 
-# according to subject pass rate (2017-8-24 --- ?)
+# According to subject pass rate (2017-8-24 --- ?)
 
 1. [Encode and Decode TinyURL(LeetCode#535)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EncodeAndDecodeTinyURL.h)
 2. [Maximum Binary Tree(LeetCode#654)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumBinaryTree.h)
