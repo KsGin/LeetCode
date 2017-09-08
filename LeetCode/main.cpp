@@ -7,17 +7,15 @@
 //
 
 #include <iostream>
-#include "ReshapeTheMatrix.h"
+#include "FizzBuzz.h"
 
 using namespace std;
 
 int main() {
 
-    ReshapeTheMatrix rtm;
+    FizzBuzz fizzBuzz;
 
-    vector<vector<int>>  vv{ {1,2 } , {3,4}};
-
-    rtm.matrixReshape(vv , 1 , 4);
+    fizzBuzz.fizzBuzz(18);
 
     return 0;
 }
