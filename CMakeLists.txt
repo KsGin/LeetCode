@@ -67,6 +67,7 @@ set(SOURCE_FILES
         LeetCode/ReverseString.h
         LeetCode/DistributeCandies.h 
         LeetCode/ReshapeTheMatrix.h
-        LeetCode/FizzBuzz.h LeetCode/TrimABinarySearchTree.h)
+        LeetCode/FizzBuzz.h
+        LeetCode/TrimABinarySearchTree.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
