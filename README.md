@@ -69,3 +69,4 @@
 17. [Reshape The Matrix(LeetCode#566)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReshapeTheMatrix.h)
 18. [Fizz Buzz(LeetCode#412)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FizzBuzz.h)
 19. [Trim a Binary Search Tree(LeetCode#669)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TrimABinarySearchTree.h)
+20. [Not Boring Movies(LeetCode#620)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NotBoringMovies.sql)
