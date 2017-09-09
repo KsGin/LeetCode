@@ -42,10 +42,23 @@ private:
     }
 
 public:
+
+    //Wrong
     TreeNode *trimBST(TreeNode *root, int L, int R) {
         return RecursivelyTBST(root, nullptr, Range(L, R));
     }
 
+    //Right
+    TreeNode *trimBST_Right_Answer(TreeNode *root, int L, int R) {
+        if(!root) return nullptr;
+        // val not in range, return the left/right subtrees
+        if(root->val < L) return trimBST(root->right, L, R);
+        if(root->val > R) return trimBST(root->left, L, R);
+        // val in [L, R], recusively trim left/right subtrees
+        root->left = trimBST(root->left, L, R);
+        root->right = trimBST(root->right, L, R);
+        return root;
+    }
 
 };
 
