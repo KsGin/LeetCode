@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.7)
 project(LeetCode)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES
         LeetCode/ContainerWithMostWater.h
@@ -67,6 +67,6 @@ set(SOURCE_FILES
         LeetCode/ReverseString.h
         LeetCode/DistributeCandies.h 
         LeetCode/ReshapeTheMatrix.h
-        LeetCode/FizzBuzz.h)
+        LeetCode/FizzBuzz.h LeetCode/TrimABinarySearchTree.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
