@@ -1,4 +1,6 @@
-# LeetCode Problem : follow the order of the questions number (2017-7-4 --- 2017-8-22)
+<center>LeetCode Problem 
+---
+## Follow the order of the questions number ( from 2017-7-4 to 2017-8-22)
 
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.h)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.h)
@@ -48,7 +50,7 @@
 46. [Group Anagrams](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GroupAnagrams.h)
 47. [Pow](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Pow.h)
 
-# According to subject pass rate (2017-8-24 --- ?)
+## According to subject pass rate (after 2017-8-24)
 
 1. [Encode and Decode TinyURL(LeetCode#535)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EncodeAndDecodeTinyURL.h)
 2. [Maximum Binary Tree(LeetCode#654)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumBinaryTree.h)
@@ -72,3 +74,4 @@
 20. [Not Boring Movies(LeetCode#620)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NotBoringMovies.sql)
 21. [IslandPerimeter(LeetCode#463)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IslandPerimeter.h)
 22. [Next Greater Element One(LeetCode#496)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NextGreaterElementOne.h)
+23. [Average Of Levels In Binary Tree(LeetCode#637)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AverageOfLevelsInBinaryTree.h)

@@ -68,6 +68,9 @@ set(SOURCE_FILES
         LeetCode/DistributeCandies.h 
         LeetCode/ReshapeTheMatrix.h
         LeetCode/FizzBuzz.h
-        LeetCode/TrimABinarySearchTree.h "LeetCode/IslandPerimeter .h" "LeetCode/NextGreaterElementOne.h")
+        LeetCode/TrimABinarySearchTree.h
+        LeetCode/IslandPerimeter.h
+        LeetCode/NextGreaterElementOne.h
+        LeetCode/AverageOfLevelsInBinaryTree.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
