@@ -17,8 +17,8 @@ struct TreeNode {
 
 class FindBottomLeftTreeValue {
     struct Ret {
-        int level;
-        int value;
+        int level = 0;
+        int value = 0;
     };
 public:
     void find(TreeNode *pNode, int level, Ret &ret) {
@@ -32,7 +32,6 @@ public:
 
     int findBottomLeftValue(TreeNode *root) {
         Ret ret;
-        ret.level = 0;
         find(root, 1, ret);
         return ret.value;
     }
