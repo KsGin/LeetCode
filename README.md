@@ -78,3 +78,4 @@
 22. [Next Greater Element One(LeetCode#496)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NextGreaterElementOne.h)
 23. [Average Of Levels In Binary Tree(LeetCode#637)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AverageOfLevelsInBinaryTree.h)
 24. [Find Bottom Left Tree Value(LeetCode#513)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindBottomLeftTreeValue.h)
+25. [Find All Duplicates In An Array(LeetCode#442)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindAllDuplicatesInAnArray.h)
