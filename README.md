@@ -79,3 +79,4 @@
 23. [Average Of Levels In Binary Tree(LeetCode#637)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AverageOfLevelsInBinaryTree.h)
 24. [Find Bottom Left Tree Value(LeetCode#513)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindBottomLeftTreeValue.h)
 25. [Find All Duplicates In An Array(LeetCode#442)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindAllDuplicatesInAnArray.h)
+26. [Queue Reconstruction By Height(LeetCode#406)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/QueueReconstructionByHeight.h)
