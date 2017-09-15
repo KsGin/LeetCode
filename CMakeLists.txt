@@ -71,6 +71,6 @@ set(SOURCE_FILES
         LeetCode/TrimABinarySearchTree.h
         LeetCode/IslandPerimeter.h
         LeetCode/NextGreaterElementOne.h
-        LeetCode/AverageOfLevelsInBinaryTree.h LeetCode/FindBottomLeftTreeValue.h "LeetCode/FindAllDuplicatesInAnArray .h" LeetCode/QueueReconstructionByHeight.h)
+        LeetCode/AverageOfLevelsInBinaryTree.h LeetCode/FindBottomLeftTreeValue.h "LeetCode/FindAllDuplicatesInAnArray .h" LeetCode/QueueReconstructionByHeight.h LeetCode/SingleElementInASortedArray.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
