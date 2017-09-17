@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "FindAllDuplicatesInAnArray .h"
+#include "FindAllDuplicatesInAnArray.h"
 
 using namespace std;
 
