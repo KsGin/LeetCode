@@ -83,3 +83,4 @@
 27. [Single Element In A Sorted Array(LeetCode#540)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleElementInASortedArray.h)
 28. [Longest Uncommon Subsequence I(LeetCode#521)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestUncommonSubsequenceI.h)
 29. [Nim Game(LeetCode#292)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NimGame.h)
+30. [Optimal Division(LeetCode#553)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/OptimalDivision.h)
