@@ -84,3 +84,4 @@
 28. [Longest Uncommon Subsequence I(LeetCode#521)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestUncommonSubsequenceI.h)
 29. [Nim Game(LeetCode#292)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NimGame.h)
 30. [Optimal Division(LeetCode#553)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/OptimalDivision.h)
+31. [Beautiful Arrangement(LeetCode#526)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BeautifulArrangement.h)
