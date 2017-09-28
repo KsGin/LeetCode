@@ -86,3 +86,4 @@
 30. [Optimal Division(LeetCode#553)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/OptimalDivision.h)
 31. [Beautiful Arrangement(LeetCode#526)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BeautifulArrangement.h)
 32. [Find Largest Value In Each Tree Row(LeetCode#515)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindLargestValueInEachTreeRow.h)
+33. [Baseball Game(LeetCode#682)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BaseballGame.h)

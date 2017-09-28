@@ -9,16 +9,31 @@
 
 #include <string>
 #include <vector>
-#include <cstdlib>
-#include <cstdio>
 
 class BaseballGame {
 public:
-    int calPoints(std::vector<std::string>& ops) {
+    int calPoints(std::vector<std::string> ops) {
         if (ops.size() == 0) return 0;
 
-        int lf = atoi(ops[0].c_str());
+        std::vector<int> nums(0);
+        for (int i = 0; i < ops.size(); ++i) {
+            if(ops[i][0] == '+'){
+                nums.push_back(nums[nums.size()-1] + nums[nums.size()-2]);
+            }else if(ops[i][0] == 'C'){
+                nums.erase(nums.end()-1);
+            }else if(ops[i][0] == 'D'){
+                nums.push_back(nums[nums.size()-1]*2);
+            }else{
+                nums.push_back(atoi(ops[i].c_str()));
+            }
+        }
 
+        int ret = 0;
+        for (auto num : nums) {
+            ret += num;
+        }
+
+        return ret;
     }
 };
 
