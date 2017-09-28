@@ -7,13 +7,20 @@
 //
 
 #include <iostream>
-#include "NimGame.h"
+#include "FindLargestValueInEachTreeRow.h"
 
 using namespace std;
 
 int main() {
 
-    NimGame nimGame;
-    cout << nimGame.canWinNim(5);
+    TreeNode* root = new TreeNode(1);
+    root->left = new TreeNode(3);
+    root->right = new TreeNode(2);
+    root->left->left = new TreeNode(5);
+    root->left->right = new TreeNode(9);
+    root->right->right = new TreeNode(3);
+
+    FindLargestValueInEachTreeRow findLargestValueInEachTreeRow;
+    findLargestValueInEachTreeRow.largestValues(root);
     return 0;
 }
