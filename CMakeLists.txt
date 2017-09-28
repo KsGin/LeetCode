@@ -71,6 +71,6 @@ set(SOURCE_FILES
         LeetCode/TrimABinarySearchTree.h
         LeetCode/IslandPerimeter.h
         LeetCode/NextGreaterElementOne.h
-        LeetCode/AverageOfLevelsInBinaryTree.h LeetCode/FindBottomLeftTreeValue.h "LeetCode/FindAllDuplicatesInAnArray.h" LeetCode/QueueReconstructionByHeight.h LeetCode/SingleElementInASortedArray.h "LeetCode/LongestUncommonSubsequenceI.h" LeetCode/NimGame.h "LeetCode/OptimalDivision.h" LeetCode/BeautifulArrangement.h)
+        LeetCode/AverageOfLevelsInBinaryTree.h LeetCode/FindBottomLeftTreeValue.h "LeetCode/FindAllDuplicatesInAnArray.h" LeetCode/QueueReconstructionByHeight.h LeetCode/SingleElementInASortedArray.h "LeetCode/LongestUncommonSubsequenceI.h" LeetCode/NimGame.h "LeetCode/OptimalDivision.h" LeetCode/BeautifulArrangement.h LeetCode/BaseballGame.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
