@@ -87,3 +87,5 @@
 31. [Beautiful Arrangement(LeetCode#526)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BeautifulArrangement.h)
 32. [Find Largest Value In Each Tree Row(LeetCode#515)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindLargestValueInEachTreeRow.h)
 33. [Baseball Game(LeetCode#682)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BaseballGame.h)
+34. [Single Number(LeetCode#136)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleNumber.h)
+35. [Arithmetic Slices(LeetCode#413)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ArithmeticSlices.h)

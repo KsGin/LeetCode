@@ -81,6 +81,6 @@ set(SOURCE_FILES
         LeetCode/OptimalDivision.h
         LeetCode/BeautifulArrangement.h
         LeetCode/FindLargestValueInEachTreeRow.h
-        LeetCode/BaseballGame.h)
+        LeetCode/BaseballGame.h LeetCode/SingleNumber.h LeetCode/ArithmeticSlices.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
