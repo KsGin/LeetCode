@@ -89,3 +89,4 @@
 33. [Baseball Game(LeetCode#682)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BaseballGame.h)
 34. [Single Number(LeetCode#136)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleNumber.h)
 35. [Arithmetic Slices(LeetCode#413)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ArithmeticSlices.h)
+36. [Employee Importance(LeetCode#690)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EmployeeImportance.h)
