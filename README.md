@@ -91,3 +91,4 @@
 35. [Arithmetic Slices(LeetCode#413)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ArithmeticSlices.h)
 36. [Employee Importance(LeetCode#690)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EmployeeImportance.h)
 37. [Map Sum Pairs(LeetCode#677)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MapSumPairs.h)
+38. [Max Consecutive Ones(LeetCode#485)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxConsecutiveOnes.h)
