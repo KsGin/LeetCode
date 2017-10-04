@@ -92,4 +92,4 @@
 36. [Employee Importance(LeetCode#690)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EmployeeImportance.h)
 37. [Map Sum Pairs(LeetCode#677)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MapSumPairs.h)
 38. [Max Consecutive Ones(LeetCode#485)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxConsecutiveOnes.h)
-39. [Maximum Depth Of Binary Tree(LeetCode#104)](https://github.com/KsGin/LeetCode/blob/master/MaximumDepthOfBinaryTree.h)
+39. [Maximum Depth Of Binary Tree(LeetCode#104)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumDepthOfBinaryTree.h)
