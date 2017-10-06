@@ -93,4 +93,5 @@
 37. [Map Sum Pairs(LeetCode#677)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MapSumPairs.h)
 38. [Max Consecutive Ones(LeetCode#485)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxConsecutiveOnes.h)
 39. [Maximum Depth Of Binary Tree(LeetCode#104)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumDepthOfBinaryTree.h)
-40. [Most Frequent Subtree Sum(LeetCode)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MostFrequentSubtreeSum.h)
+40. [Most Frequent Subtree Sum(LeetCode#508)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MostFrequentSubtreeSum.h)
+41. [Invert Binary Tree(LeetCode#226)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/InvertBinaryTree.h)
