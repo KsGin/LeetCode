@@ -97,3 +97,4 @@
 41. [Invert Binary Tree(LeetCode#226)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/InvertBinaryTree.h)
 42. [Single Number Three(LeetCode#260)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleNumberThree.h)
 43. [Max Area Of Island(LeetCode#695)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxAreaOfIsland.h)
+44. [Detect Capital(LeetCode#520)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DetectCapital.h)

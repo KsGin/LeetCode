@@ -81,6 +81,6 @@ set(SOURCE_FILES
         LeetCode/OptimalDivision.h
         LeetCode/BeautifulArrangement.h
         LeetCode/FindLargestValueInEachTreeRow.h
-        LeetCode/BaseballGame.h LeetCode/SingleNumber.h LeetCode/ArithmeticSlices.h LeetCode/EmployeeImportance.h LeetCode/MapSumPairs.h LeetCode/MaxConsecutiveOnes.h LeetCode/MaximumDepthOfBinaryTree.h LeetCode/MostFrequentSubtreeSum.h LeetCode/InvertBinaryTree.h LeetCode/SingleNumberThree.h LeetCode/MaxAreaOfIsland.h)
+        LeetCode/BaseballGame.h LeetCode/SingleNumber.h LeetCode/ArithmeticSlices.h LeetCode/EmployeeImportance.h LeetCode/MapSumPairs.h LeetCode/MaxConsecutiveOnes.h LeetCode/MaximumDepthOfBinaryTree.h LeetCode/MostFrequentSubtreeSum.h LeetCode/InvertBinaryTree.h LeetCode/SingleNumberThree.h LeetCode/MaxAreaOfIsland.h LeetCode/DetectCapital.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
