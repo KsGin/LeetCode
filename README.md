@@ -96,3 +96,4 @@
 40. [Most Frequent Subtree Sum(LeetCode#508)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MostFrequentSubtreeSum.h)
 41. [Invert Binary Tree(LeetCode#226)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/InvertBinaryTree.h)
 42. [Single Number Three(LeetCode#260)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleNumberThree.h)
+43. [Max Area Of Island(LeetCode#695)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxAreaOfIsland.h)

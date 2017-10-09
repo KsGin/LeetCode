@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "MapSumPairs.h"
+#include "MaxAreaOfIsland.h"
 #include <iostream>
 
 using namespace std;
@@ -32,13 +32,18 @@ int main() {
 //    ArithmeticSlices arithmeticSlices;
 //    arithmeticSlices.numberOfArithmeticSlices(A);
 
+//
+//    MapSum ms = MapSum();
+//    ms.insert("apple" , 3);
+//    cout << ms.sum("ap");
+//
+//    ms.insert("app", 2);
+//    cout << ms.sum("ap");
 
-    MapSum ms = MapSum();
-    ms.insert("apple" , 3);
-    cout << ms.sum("ap");
+    vector<vector<int>> grid{{1,1,0,0,0},{1,1,0,0,0},{0,0,0,1,1},{0,0,0,1,1}};
 
-    ms.insert("app", 2);
-    cout << ms.sum("ap");
+    MaxAreaOfIsland mai;
+    mai.maxAreaOfIsland(grid);
 
     return 0;
 }
