@@ -98,3 +98,4 @@
 42. [Single Number Three(LeetCode#260)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SingleNumberThree.h)
 43. [Max Area Of Island(LeetCode#695)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaxAreaOfIsland.h)
 44. [Detect Capital(LeetCode#520)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DetectCapital.h)
+45. [Binary Number With Alternating Bits(LeetCode#693)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryNumberWithAlternatingBits.h)
