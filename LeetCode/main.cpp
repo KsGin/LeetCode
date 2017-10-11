@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "BinaryNumberWithAlternatingBits.h"
+#include "BeautifulArrangementTwo.h"
 #include <iostream>
 
 using namespace std;
@@ -44,18 +44,22 @@ int main() {
 //
 //    MaxAreaOfIsland mai;
 //    mai.maxAreaOfIsland(grid);
+//
+//    BinaryNumberWithAlternatingBits bnb;
+//    cout << bnb.hasAlternatingBits(9) << endl;
+//    cout << bnb.hasAlternatingBits(4) << endl;
+//    cout << bnb.hasAlternatingBits(5) << endl;
+//    cout << bnb.hasAlternatingBits(10) << endl;
+//    cout << bnb.hasAlternatingBits(11) << endl;
+//    cout << bnb.hasAlternatingBits(12) << endl;
+//    cout << bnb.hasAlternatingBits(22) << endl;
+//    cout << bnb.hasAlternatingBits(21) << endl;
+//    cout << bnb.hasAlternatingBits(42) << endl;
+//    cout << bnb.hasAlternatingBits(85) << endl;
 
-    BinaryNumberWithAlternatingBits bnb;
-    cout << bnb.hasAlternatingBits(9) << endl;
-    cout << bnb.hasAlternatingBits(4) << endl;
-    cout << bnb.hasAlternatingBits(5) << endl;
-    cout << bnb.hasAlternatingBits(10) << endl;
-    cout << bnb.hasAlternatingBits(11) << endl;
-    cout << bnb.hasAlternatingBits(12) << endl;
-    cout << bnb.hasAlternatingBits(22) << endl;
-    cout << bnb.hasAlternatingBits(21) << endl;
-    cout << bnb.hasAlternatingBits(42) << endl;
-    cout << bnb.hasAlternatingBits(85) << endl;
 
+    BeautifulArrangementTwo bat;
+
+    bat.constructArray(4,2);
     return 0;
 }
