@@ -100,3 +100,4 @@
 44. [Detect Capital(LeetCode#520)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DetectCapital.h)
 45. [Binary Number With Alternating Bits(LeetCode#693)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryNumberWithAlternatingBits.h)
 46. [Beautiful Arrangement Two(LeetCode#667)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BeautifulArrangementTwo.h)
+47. [Minimum Moves To Equal Array Elements Two(LeetCode#462)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MinimumMovesToEqualArrayElementsTwo.h)

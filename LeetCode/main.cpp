@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "BeautifulArrangementTwo.h"
+#include "MinimumMovesToEqualArrayElementsTwo.h"
 #include <iostream>
 
 using namespace std;
@@ -57,9 +57,15 @@ int main() {
 //    cout << bnb.hasAlternatingBits(42) << endl;
 //    cout << bnb.hasAlternatingBits(85) << endl;
 
+//
+//    BeautifulArrangementTwo bat;
+//
+//    bat.constructArray(4,2);
 
-    BeautifulArrangementTwo bat;
 
-    bat.constructArray(4,2);
+    vector<int> nums{1 , 2, 3 ,4 ,5};
+
+    MinimumMovesToEqualArrayElementsTwo mme;
+    cout << mme.minMoves2(nums);
     return 0;
 }
