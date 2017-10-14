@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "MinimumMovesToEqualArrayElementsTwo.h"
+#include "AddDigits.h"
 #include <iostream>
 
 using namespace std;
@@ -62,10 +62,14 @@ int main() {
 //
 //    bat.constructArray(4,2);
 
+//
+//    vector<int> nums{1 , 2, 3 ,4 ,5};
+//
+//    MinimumMovesToEqualArrayElementsTwo mme;
+//    cout << mme.minMoves2(nums);
 
-    vector<int> nums{1 , 2, 3 ,4 ,5};
+    AddDigits ad;
+    ad.addDigits(11);
 
-    MinimumMovesToEqualArrayElementsTwo mme;
-    cout << mme.minMoves2(nums);
     return 0;
 }

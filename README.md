@@ -102,3 +102,4 @@
 46. [Beautiful Arrangement Two(LeetCode#667)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BeautifulArrangementTwo.h)
 47. [Minimum Moves To Equal Array Elements Two(LeetCode#462)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MinimumMovesToEqualArrayElementsTwo.h)
 48. [Teemo Attacking(LeetCode#495)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TeemoAttacking.h)
+49. [Add Digits(LeetCode#258)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AddDigits.h)
