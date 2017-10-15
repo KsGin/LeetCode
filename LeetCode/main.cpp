@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "AddDigits.h"
+#include "FindAllNumbersDisappearedInAnArray.h"
 #include <iostream>
 
 using namespace std;
@@ -67,9 +67,14 @@ int main() {
 //
 //    MinimumMovesToEqualArrayElementsTwo mme;
 //    cout << mme.minMoves2(nums);
+//
+//    AddDigits ad;
+//    ad.addDigits(11);
 
-    AddDigits ad;
-    ad.addDigits(11);
+    FindAllNumbersDisappearedInAnArray fnda;
+    std::vector<int> nums{2 , 1  , 4  , 3  ,5  , 8 ,9};
+
+    fnda.findDisappearedNumbers(nums);
 
     return 0;
 }
