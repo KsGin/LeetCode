@@ -97,6 +97,6 @@ set(SOURCE_FILES
         LeetCode/BeautifulArrangementTwo.h
         LeetCode/MinimumMovesToEqualArrayElementsTwo.h
         LeetCode/TeemoAttacking.h
-        LeetCode/AddDigits.h LeetCode/FindAllNumbersDisappearedInAnArray.h)
+        LeetCode/AddDigits.h LeetCode/FindAllNumbersDisappearedInAnArray.h LeetCode/CountBinarySubstrings.h)
 
 add_executable(LeetCode ${SOURCE_FILES})

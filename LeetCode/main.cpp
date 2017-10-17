@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "FindAllNumbersDisappearedInAnArray.h"
+#include "CountBinarySubstrings.h"
 #include <iostream>
 
 using namespace std;
@@ -71,10 +71,14 @@ int main() {
 //    AddDigits ad;
 //    ad.addDigits(11);
 
-    FindAllNumbersDisappearedInAnArray fnda;
-    std::vector<int> nums{2 , 1  , 4  , 3  ,5  , 8 ,9};
+//    FindAllNumbersDisappearedInAnArray fnda;
+//    std::vector<int> nums{2 , 1  , 4  , 3  ,5  , 8 ,9};
+//
+//    fnda.findDisappearedNumbers(nums);
 
-    fnda.findDisappearedNumbers(nums);
+
+    CountBinarySubstrings cbs;
+    cbs.countBinarySubstrings("00110");
 
     return 0;
 }
