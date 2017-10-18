@@ -105,3 +105,4 @@
 49. [Add Digits(LeetCode#258)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AddDigits.h)
 50. [Find All Numbers Disappeared In An Array(LeetCode#448)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindAllNumbersDisappearedInAnArray.h)
 51. [Count Binary Substrings(LeetCode#696)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountBinarySubstrings.h)
+52. [Sum Of Two Integers(LeetCode#371)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SumOfTwoIntegers.h)
