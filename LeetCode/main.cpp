@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "CountBinarySubstrings.h"
+#include "SortCharactersByFrequency.h"
 #include <iostream>
 
 using namespace std;
@@ -75,10 +75,13 @@ int main() {
 //    std::vector<int> nums{2 , 1  , 4  , 3  ,5  , 8 ,9};
 //
 //    fnda.findDisappearedNumbers(nums);
+//
+//
+//    CountBinarySubstrings cbs;
+//    cbs.countBinarySubstrings("00110");
 
-
-    CountBinarySubstrings cbs;
-    cbs.countBinarySubstrings("00110");
+    SortCharactersByFrequency scb;
+    scb.frequencySort("ccaaaabbbd");
 
     return 0;
 }
