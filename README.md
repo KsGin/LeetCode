@@ -108,3 +108,4 @@
 52. [Sum Of Two Integers(LeetCode#371)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SumOfTwoIntegers.h)
 53. [Sort Characters By Frequency(LeetCode#451)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SortCharactersByFrequency.h)
 54. [FindTheDifference(LeetCode#389)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindTheDifference.h)
+55. [Two Sum IV - Input is a BST(LeetCode#653)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TwoSumFour.h)

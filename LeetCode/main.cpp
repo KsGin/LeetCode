@@ -6,20 +6,23 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "SortCharactersByFrequency.h"
+#include "TwoSumFour.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-//    TreeNode* root = new TreeNode(1);
-//    root->left = new TreeNode(3);
-//    root->right = new TreeNode(2);
-//    root->left->left = new TreeNode(5);
-//    root->left->right = new TreeNode(9);
-//    root->right->right = new TreeNode(3);
-//
+    TreeNode* root = new TreeNode(5);
+    root->left = new TreeNode(3);
+    root->right = new TreeNode(6);
+    root->left->left = new TreeNode(2);
+    root->left->right = new TreeNode(4);
+    root->right->right = new TreeNode(7);
+
+    TwoSumFour tsf;
+    tsf.findTarget(root , 28);
+
 //    FindLargestValueInEachTreeRow findLargestValueInEachTreeRow;
 //    findLargestValueInEachTreeRow.largestValues(root);
 //
@@ -80,8 +83,8 @@ int main() {
 //    CountBinarySubstrings cbs;
 //    cbs.countBinarySubstrings("00110");
 
-    SortCharactersByFrequency scb;
-    scb.frequencySort("ccaaaabbbd");
+//    SortCharactersByFrequency scb;
+//    scb.frequencySort("ccaaaabbbd");
 
     return 0;
 }
