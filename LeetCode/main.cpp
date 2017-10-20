@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "TwoSumFour.h"
+#include "PrintBinaryTree.h"
 #include <iostream>
 
 using namespace std;
@@ -20,8 +20,8 @@ int main() {
     root->left->right = new TreeNode(4);
     root->right->right = new TreeNode(7);
 
-    TwoSumFour tsf;
-    tsf.findTarget(root , 28);
+    PrintBinaryTree pbt;
+    pbt.printTree(root);
 
 //    FindLargestValueInEachTreeRow findLargestValueInEachTreeRow;
 //    findLargestValueInEachTreeRow.largestValues(root);
