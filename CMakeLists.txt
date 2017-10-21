@@ -102,6 +102,6 @@ set(SOURCE_FILES
         LeetCode/CountBinarySubstrings.h
         LeetCode/SumOfTwoIntegers.h
         LeetCode/SortCharactersByFrequency.h
-        LeetCode/FindTheDifference.h LeetCode/TwoSumFour.h LeetCode/PrintBinaryTree.h)
+        LeetCode/FindTheDifference.h LeetCode/TwoSumFour.h LeetCode/PrintBinaryTree.h LeetCode/MoveZeroes.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
