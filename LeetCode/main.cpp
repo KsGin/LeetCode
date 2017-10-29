@@ -6,22 +6,22 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "PrintBinaryTree.h"
+#include "FriendCircles.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    TreeNode* root = new TreeNode(5);
-    root->left = new TreeNode(3);
-    root->right = new TreeNode(6);
-    root->left->left = new TreeNode(2);
-    root->left->right = new TreeNode(4);
-    root->right->right = new TreeNode(7);
-
-    PrintBinaryTree pbt;
-    pbt.printTree(root);
+//    TreeNode* root = new TreeNode(5);
+//    root->left = new TreeNode(3);
+//    root->right = new TreeNode(6);
+//    root->left->left = new TreeNode(2);
+//    root->left->right = new TreeNode(4);
+//    root->right->right = new TreeNode(7);
+//
+//    PrintBinaryTree pbt;
+//    pbt.printTree(root);
 
 //    FindLargestValueInEachTreeRow findLargestValueInEachTreeRow;
 //    findLargestValueInEachTreeRow.largestValues(root);
@@ -85,6 +85,26 @@ int main() {
 
 //    SortCharactersByFrequency scb;
 //    scb.frequencySort("ccaaaabbbd");
+
+
+    vector<vector<int>> s{{1,0,0,0,0,0,0,0,0,1,0,0,0,0,0},
+                          {0,1,0,1,0,0,0,0,0,0,0,0,0,1,0},
+                          {0,0,1,0,0,0,0,0,0,0,0,0,0,0,0},
+                          {0,1,0,1,0,0,0,1,0,0,0,1,0,0,0},
+                          {0,0,0,0,1,0,0,0,0,0,0,0,1,0,0},
+                          {0,0,0,0,0,1,0,0,0,0,0,0,0,0,0},
+                          {0,0,0,0,0,0,1,0,0,0,0,0,0,0,0},
+                          {0,0,0,1,0,0,0,1,1,0,0,0,0,0,0},
+                          {0,0,0,0,0,0,0,1,1,0,0,0,0,0,0},
+                          {1,0,0,0,0,0,0,0,0,1,0,0,0,0,0},
+                          {0,0,0,0,0,0,0,0,0,0,1,0,0,0,0},
+                          {0,0,0,1,0,0,0,0,0,0,0,1,0,0,0},
+                          {0,0,0,0,1,0,0,0,0,0,0,0,1,0,0},
+                          {0,1,0,0,0,0,0,0,0,0,0,0,0,1,0},
+                          {0,0,0,0,0,0,0,0,0,0,0,0,0,0,1}};
+
+    FriendCircles fc;
+    fc.findCircleNum(s);
 
     return 0;
 }
