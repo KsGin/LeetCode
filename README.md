@@ -117,3 +117,4 @@
 61. [Minesweeper(LeetCode#529)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Minesweeper.h)
 62. [ConvertBSTToGreaterTree(LeetCode#538)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ConvertBSTToGreaterTree.h)
 63. [Friend Circles(LeetCode#547)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FriendCircles.h)
+64. [One Bit And Two Bit Characters(LeetCode#717)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/OneBitAndTwoBitCharacters.h)
