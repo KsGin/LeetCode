@@ -6,7 +6,7 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "OneBitAndTwoBitCharacters.h"
+#include "MinimumASCIIDeleteSumForTwoStrings.h"
 #include <iostream>
 
 using namespace std;
@@ -106,10 +106,14 @@ int main() {
 //    FriendCircles fc;
 //    fc.findCircleNum(s);
 
+//
+//    vector<int> s{1 , 1 , 1 , 0};
+//    OneBitAndTwoBitCharacters obatbc;
+//    obatbc.isOneBitCharacter(s);
 
-    vector<int> s{1 , 1 , 1 , 0};
-    OneBitAndTwoBitCharacters obatbc;
-    obatbc.isOneBitCharacter(s);
+    MinimumASCIIDeleteSumForTwoStrings mu;
+    mu.minimumDeleteSum("igijekdtywibepwonjbwykkqmrgmtybwhwjiqudxmnniskqjfbkpcxukrablqmwjndlhblxflgehddrvwfacarwkcpmcfqnajqfxyqwiugztocqzuikamtvmbjrypfqvzqiwooewpzcpwhdejmuahqtukistxgfafrymoaodtluaexucnndlnpeszdfsvfofdylcicrrevjggasrgdhwdgjwcchyanodmzmuqeupnpnsmdkcfszznklqjhjqaboikughrnxxggbfyjriuvdsusvmhiaszicfa",
+                                "ikhuivqorirphlzqgcruwirpewbjgrjtugwpnkbrdfufjsmgzzjespzdcdjcoioaqybciofdzbdieegetnogoibbwfielwungehetanktjqjrddkrnsxvdmehaeyrpzxrxkhlepdgpwhgpnaatkzbxbnopecfkxoekcdntjyrmmvppcxcgquhomcsltiqzqzmkloomvfayxhawlyqxnsbyskjtzxiyrsaobbnjpgzmetpqvscyycutdkpjpzfokvi");
 
     return 0;
 }
