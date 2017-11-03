@@ -8,6 +8,7 @@
 #define LEETCODE_FINDTHEDIFFERENCE_H
 
 #include <string>
+#include <algorithm>
 
 class FindTheDifference {
 public:
