@@ -39,11 +39,7 @@ public:
         int idx = keyIndex(key);
         if(idx == -1){
             mmp.emplace_back(key , val);
-        }else{
-            mmp[idx].second = val;
-        }
-    }
-
+        }else{ 
     int sum(const std::string &prefix) {
         int ret = 0;
 
