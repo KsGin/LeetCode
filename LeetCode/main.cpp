@@ -6,17 +6,17 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "TopKFrequentElements.h"
+#include "DegreeOfAnArray.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    std::vector<int> a {1 , 1  , 2 , 2 ,2 , 2 ,7  ,3 , 5};
+    std::vector<int> a {1 , 2 , 2 , 3  , 1 , 4 , 2};
 
-    TopKFrequentElements tk;
-    tk.topKFrequent(a , 2);
+    DegreeOfAnArray doa;
+    doa.findShortestSubArray(a);
 
     return 0;
 }
