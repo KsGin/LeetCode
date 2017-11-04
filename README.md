@@ -123,3 +123,4 @@
 67. [Construct The Rectangle(LeetCode#492)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ConstructTheRectangle.h)
 68. [Range Addition Two(LeetCode#598)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RangeAdditionTwo.h)
 69. [Degree Of An Array(LeetCode#697)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DegreeOfAnArray.h)
+70. [Bulb Switcher Two(LeetCode#672)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BulbSwitcherTwo.h)
