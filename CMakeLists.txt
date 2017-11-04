@@ -117,6 +117,6 @@ set(SOURCE_FILES
         LeetCode/TopKFrequentElements.h
         LeetCode/ConstructTheRectangle.h
         LeetCode/RangeAdditionTwo.h
-        LeetCode/DegreeOfAnArray.h LeetCode/BulbSwitcherTwo.h)
+        LeetCode/DegreeOfAnArray.h LeetCode/BulbSwitcherTwo.h LeetCode/ExcelSheetColumnNumber.h)
 
 add_executable(LeetCode ${SOURCE_FILES})

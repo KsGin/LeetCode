@@ -124,3 +124,4 @@
 68. [Range Addition Two(LeetCode#598)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RangeAdditionTwo.h)
 69. [Degree Of An Array(LeetCode#697)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DegreeOfAnArray.h)
 70. [Bulb Switcher Two(LeetCode#672)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BulbSwitcherTwo.h)
+71. [Excel Sheet Column Number(LeetCode#171)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExcelSheetColumnNumber.h)
