@@ -125,3 +125,4 @@
 69. [Degree Of An Array(LeetCode#697)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DegreeOfAnArray.h)
 70. [Bulb Switcher Two(LeetCode#672)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BulbSwitcherTwo.h)
 71. [Excel Sheet Column Number(LeetCode#171)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExcelSheetColumnNumber.h)
+72. [Excel Sheet Column Title(LeetCode#168)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExcelSheetColumnTitle.h)
