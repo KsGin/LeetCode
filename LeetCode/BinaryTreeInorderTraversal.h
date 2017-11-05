@@ -27,7 +27,6 @@ public:
 
     std::vector<int> inorderTraversal(TreeNode* root) {
         std::vector<int> ret(0);
-        if(root == nullptr) return ret;
 
         InorderTraversalRecv(root , ret);
 
