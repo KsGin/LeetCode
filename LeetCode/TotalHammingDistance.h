@@ -13,23 +13,15 @@
 class TotalHammingDistance {
 public:
     int totalHammingDistance(std::vector<int>& nums) {
-        if (nums.empty()) return 0;
-        int sum = 0;
-        for (int i = 0; i < nums.size() - 1; ++i) {
-            for(int j = i + 1 ; j < nums.size() ; ++j){
-                int num = (nums[i] | nums[j]) - (nums[i] & nums[j]);
-                sum += [num]()->int
-                {
-                    int dist = 0;
-                    while (num != 0){
-                        dist += num % 2 == 0 ? 0 : 1;
-                        num = num / 2;
-                    }
-                    return dist;
-                }();
+        int res = 0, n = static_cast<int>(nums.size());
+        for (int i = 0; i < 32; ++i) {
+            int cnt = 0;
+            for (int num : nums) {
+                if (num & (1 << i)) ++cnt;
             }
+            res += cnt * (n - cnt);
         }
-        return sum;
+        return res;
     }
 };
 

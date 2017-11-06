@@ -127,3 +127,4 @@
 71. [Excel Sheet Column Number(LeetCode#171)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExcelSheetColumnNumber.h)
 72. [Excel Sheet Column Title(LeetCode#168)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExcelSheetColumnTitle.h)
 73. [Binary Tree Inorder Traversal(LeetCode#94)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreeInorderTraversal.h)
+74. [Total Hamming Distance(LeetCode#477)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TotalHammingDistance.h)
