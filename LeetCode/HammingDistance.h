@@ -9,8 +9,6 @@
 
 #include <string>
 
-using std::string;
-
 class HammingDistance {
 public:
     int hammingDistance(int x, int y) {
