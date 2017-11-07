@@ -117,6 +117,6 @@ set(SOURCE_FILES
         LeetCode/TopKFrequentElements.h
         LeetCode/ConstructTheRectangle.h
         LeetCode/RangeAdditionTwo.h
-        LeetCode/DegreeOfAnArray.h LeetCode/BulbSwitcherTwo.h LeetCode/ExcelSheetColumnNumber.h LeetCode/ExcelSheetColumnTitle.h LeetCode/BinaryTreeInorderTraversal.h LeetCode/TotalHammingDistance.h)
+        LeetCode/DegreeOfAnArray.h LeetCode/BulbSwitcherTwo.h LeetCode/ExcelSheetColumnNumber.h LeetCode/ExcelSheetColumnTitle.h LeetCode/BinaryTreeInorderTraversal.h LeetCode/TotalHammingDistance.h LeetCode/MinimumMovesToEqualArrayElements.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
