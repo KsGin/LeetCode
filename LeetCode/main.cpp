@@ -6,17 +6,18 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "MaximumLengthOfPairChain.h"
+#include "CopyListWithRandomPointer.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    std::vector<vector<int>> s {{-6,9},{1,6},{8,10},{-1,4},{-6,-2},{-9,8},{-5,3},{0,3}};
+    RandomListNode* r = new RandomListNode(-1);
 
-    MaximumLengthOfPairChain mloc;
-    mloc.findLongestChain(s);
+
+    CopyListWithRandomPointer cr;
+    cr.copyRandomList(r);
 
     return 0;
 }
