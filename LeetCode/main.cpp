@@ -6,18 +6,15 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "CopyListWithRandomPointer.h"
+#include "RansomNote.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    RandomListNode* r = new RandomListNode(-1);
-
-
-    CopyListWithRandomPointer cr;
-    cr.copyRandomList(r);
+    RansomNote rn;
+    rn.canConstruct("abbb" , "abbaa");
 
     return 0;
 }

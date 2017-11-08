@@ -133,3 +133,4 @@
 77. [Intersection Of Two Arrays(LeetCode#349)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IntersectionOfTwoArrays.h)
 78. [Maximum Length Of Pair Chain(LeetCode#646)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumLengthOfPairChain.h)
 79. [Copy List With Random Pointer(LeetCode#138)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CopyListWithRandomPointer.h)
+80. [Ransom Note(LeetCode#383)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RansomNote.h)
