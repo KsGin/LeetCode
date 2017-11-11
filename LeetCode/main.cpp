@@ -6,15 +6,16 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "RansomNote.h"
+#include "ReplaceWords.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    RansomNote rn;
-    rn.canConstruct("abbb" , "abbaa");
+    ReplaceWords rw;
+    auto a = vector<string>{"cat" , "bat" , "rat"};
+    rw.replaceWords( a, "the cattle was rattled by the battery");
 
     return 0;
 }
