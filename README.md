@@ -138,3 +138,4 @@
 82. [Sum Of Left Leaves(LeetCode#404)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SumOfLeftLeaves.h)
 83. [Replace Words(LeetCode#648)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReplaceWords.h)
 84. [Four Sum Two(LeetCode#454)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FourSumTwo.h)
+85. [Majority Element(LeetCode#169)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MajorityElement.h)
