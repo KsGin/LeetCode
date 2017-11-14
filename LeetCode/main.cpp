@@ -6,16 +6,22 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "ReplaceWords.h"
+#include "BinaryTreeTilt.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    ReplaceWords rw;
-    auto a = vector<string>{"cat" , "bat" , "rat"};
-    rw.replaceWords( a, "the cattle was rattled by the battery");
+    TreeNode * root = new TreeNode(1);
+    root->left = new TreeNode(2);
+    root->right = nullptr;
+    root->left->left = new TreeNode(3);
+    root->left->right = new TreeNode(4);
+
+    BinaryTreeTilt btt;
+
+    btt.findTilt(root);
 
     return 0;
 }
