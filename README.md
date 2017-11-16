@@ -141,3 +141,4 @@
 85. [Majority Element(LeetCode#169)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MajorityElement.h)
 86. [Binary Tree Tilt(LeetCode#563)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreeTilt.h)
 87. [Assign Cookies(LeetCode#455)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AssignCookies.h)
+88. [Two Sum Two Input Array Is Sorted(LeetCode#167)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TwoSumTwoInputArrayIsSorted.h)
