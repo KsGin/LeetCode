@@ -148,3 +148,4 @@
 92. [Shuffle An Array(LeetCode#384)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShuffleAnArray.h)
 93. [Delete Node In A Linked List(LeetCode#237)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DeleteNodeInALinkedList.h)
 94. [Same Tree(LeetCode#100)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SameTree.h)
+95. [Valid Anagram(LeetCode#242)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidAnagram.h)
