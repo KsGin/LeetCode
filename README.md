@@ -145,3 +145,4 @@
 89. [Linked List Random Node(LeetCode#382)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LinkedListRandomNode.h)
 90. [First Unique Character In A String(LeetCode#387)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FirstUniqueCharacterInAString.h)
 91. [Minimum Absolute Difference In BST(LeetCode#530)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MinimumAbsoluteDifferenceInBST.h)
+92. [Shuffle An Array(LeetCode#384)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShuffleAnArray.h)
