@@ -142,3 +142,4 @@
 86. [Binary Tree Tilt(LeetCode#563)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreeTilt.h)
 87. [Assign Cookies(LeetCode#455)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AssignCookies.h)
 88. [Two Sum Two Input Array Is Sorted(LeetCode#167)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TwoSumTwoInputArrayIsSorted.h)
+89. [Linked List Random Node(LeetCode#382)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LinkedListRandomNode.h)
