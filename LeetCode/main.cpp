@@ -6,22 +6,17 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "BinaryTreeTilt.h"
+#include "RelativeRanks.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    TreeNode * root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = nullptr;
-    root->left->left = new TreeNode(3);
-    root->left->right = new TreeNode(4);
+    std::vector<int> t{15 , 4 , 3 , 2 , 1};
 
-    BinaryTreeTilt btt;
-
-    btt.findTilt(root);
+    SoluRelativeRankstion sr;
+    sr.findRelativeRanks(t);
 
     return 0;
 }
