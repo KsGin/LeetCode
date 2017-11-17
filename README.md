@@ -150,3 +150,4 @@
 94. [Same Tree(LeetCode#100)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SameTree.h)
 95. [Valid Anagram(LeetCode#242)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidAnagram.h)
 96. [Maximum XOR Of Two Numbers In An Array(LeetCode#421)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumXOROfTwoNumbersInAnArray.h)
+97. [ExchangeSeats(LeetCode#626)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExchangeSeats.sql)
