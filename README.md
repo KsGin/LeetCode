@@ -152,3 +152,4 @@
 96. [Maximum XOR Of Two Numbers In An Array(LeetCode#421)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumXOROfTwoNumbersInAnArray.h)
 97. [ExchangeSeats(LeetCode#626)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExchangeSeats.sql)
 98. [Relative Ranks(LeetCode#506)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RelativeRanks.h)
+99. [Add One Row To Tree(LeetCode#623)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AddOneRowToTree.h)
