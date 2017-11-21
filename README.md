@@ -155,3 +155,4 @@
 99. [Add One Row To Tree(LeetCode#623)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AddOneRowToTree.h)
 100.[Minimum Index Sum Of Two Lists(LeetCode#599)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MinimumIndexSumOfTwoLists.h)
 101.[Contains Duplicate(LeetCode#217)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ContainsDuplicate.h)
+102.[Integer Break(LeetCode#343)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IntegerBreak.h)
