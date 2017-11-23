@@ -157,3 +157,4 @@
 101.[Contains Duplicate(LeetCode#217)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ContainsDuplicate.h)
 102.[Integer Break(LeetCode#343)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IntegerBreak.h)
 103.[Reverse Linked List(LeetCode#206)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseLinkedList.h)
+104.[Count Numbers With Unique Digits(LeetCode#357)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountNumbersWithUniqueDigits.h)
