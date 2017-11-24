@@ -158,3 +158,4 @@
 102.[Integer Break(LeetCode#343)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IntegerBreak.h)
 103.[Reverse Linked List(LeetCode#206)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseLinkedList.h)
 104.[Count Numbers With Unique Digits(LeetCode#357)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CountNumbersWithUniqueDigits.h)
+105.[Brick Wall(LeetCode#554)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BrickWall.h)
