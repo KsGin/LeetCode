@@ -165,3 +165,4 @@
 109. [Fraction Addition And Subtraction(LeetCode#592)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FractionAdditionAndSubtraction.h)
 110. [Add Two Numbers Two(LeetCode#445)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AddTwoNumbersTwo.h)
 111. [Minimum Time Difference(LeetCode#539)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MinimumTimeDifference.h)
+112. [N-Queens Two(LeetCode#52)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NQueensTwo.h)

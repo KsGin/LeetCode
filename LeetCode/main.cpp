@@ -6,17 +6,15 @@
 //  Copyright © 2017年 ksgin. All rights reserved.
 //
 
-#include "MinimumTimeDifference.h"
+#include "NQueensTwo.h"
 #include <iostream>
 
 using namespace std;
 
 int main() {
 
-    std::vector<std::string> times {"10:10" , "01:13" , "2:10"};
-
-    MinimumTimeDifference mtd;
-    mtd.findMinDifference(times);
+    NQueensTwo nqt;
+    nqt.totalNQueens(8);
 
     return 0;
 }
