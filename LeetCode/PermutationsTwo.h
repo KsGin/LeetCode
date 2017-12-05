@@ -14,12 +14,6 @@
 
 using namespace std;
 
-template <typename T> void swap(T& a , T& b){
-    T c = a;
-    a = b;
-    b = c;
-}
-
 class PermutationsTwo  {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -43,9 +37,9 @@ public:
         }
 
         for (int i = 0; i <= n; ++i) {
-            swap(nums[i] , nums[n]);
+            std::swap(nums[i] , nums[n]);
             sub_permute(ret , nums , n-1);
-            swap(nums[i] , nums[n]);
+            std::swap(nums[i] , nums[n]);
         }
     }
 
