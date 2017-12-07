@@ -172,3 +172,4 @@
 116. [Magical String(LeetCode#481)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MagicalString.h)
 117. [Longest Palindrome(LeetCode#409)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindromeLength.h)
 118. [Flood Fill(LeetCode#733)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FloodFill.h)
+119. [Predict The Winner(LeetCode#486)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/PredictTheWinner.h)
