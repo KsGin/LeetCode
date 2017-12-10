@@ -7,15 +7,15 @@
 //
 
 #include <iostream>
-#include "FloodFill.h"
+#include "NumberOfAtoms.h"
 
 using namespace std;
 
 int main() {
 
-    std::vector<std::vector<int>> image { {1,1,1} , {1,1,0} ,{1,0,1} };
-    FloodFill ff;
-    ff.floodFill(image , 1 , 1 , 2);
+    NumberOfAtoms noa;
+    noa.countOfAtoms("K4(ON(SO3)2)2");
+
 
     return 0;
 }
