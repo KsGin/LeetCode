@@ -7,14 +7,14 @@
 //
 
 #include <iostream>
-#include "NumberOfAtoms.h"
+#include "DifferentWaysToAddParentheses.h"
 
 using namespace std;
 
 int main() {
 
-    NumberOfAtoms noa;
-    noa.countOfAtoms("K4(ON(SO3)2)2");
+    DifferentWaysToAddParentheses dwtp;
+    dwtp.diffWaysToCompute("2*3-4*5");
 
 
     return 0;
