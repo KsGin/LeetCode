@@ -7,15 +7,14 @@
 //
 
 #include <iostream>
-#include "DifferentWaysToAddParentheses.h"
+#include <zconf.h>
+#include "BinaryWatch.h"
 
 using namespace std;
 
 int main() {
-
-    DifferentWaysToAddParentheses dwtp;
-    dwtp.diffWaysToCompute("2*3-4*5");
-
-
+    BinaryWatch bw;
+    //bw.readBinaryWatch(3);
+    bw.addTime("00:48","00:12");
     return 0;
 }

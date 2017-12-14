@@ -178,3 +178,4 @@
 122. [Different Ways To Add Parentheses(LeetCode#241)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DifferentWaysToAddParentheses.h)
 123. [Maximum Product Of Three Numbers(LeetCode#628)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumProductOfThreeNumbers.h)
 124. [Maximum Product Of Word Lengths(LeetCode#318)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumProductOfWordLengths.h)
+125. [Binary Watch(LeetCode#401)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryWatch.h)
