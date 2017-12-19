@@ -8,13 +8,12 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "BinaryWatch.h"
+#include "ReconstructOriginalDigitsFromEnglish.h"
 
 using namespace std;
 
 int main() {
-    BinaryWatch bw;
-    //bw.readBinaryWatch(3);
-    bw.addTime("00:48","00:12");
+    ReconstructOriginalDigitsFromEnglish rod;
+    rod.originalDigits("zeroonetwothreefourfivesixseveneightnine");
     return 0;
 }

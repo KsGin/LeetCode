@@ -183,3 +183,4 @@
 127. [Two Keys Keyboard(LeetCode#650)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TwoKeysKeyboard.h)
 128. [Diameter Of Binary Tree(LeetCode#543)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DiameterOfBinaryTree.h)
 129. [Is Subsequence(LeetCode#392)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/IsSubsequence.h)
+130. [Reconstruct Original Digits From English(LeetCode#423)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReconstructOriginalDigitsFromEnglish.h)
