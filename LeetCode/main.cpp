@@ -8,20 +8,17 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "HouseRobberThree.h"
+#include "RandomPickIndex.h"
 
 using namespace std;
 
 int main() {
 
-    TreeNode *root = new TreeNode(3);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->right = new TreeNode(3);
-    root->right->right = new TreeNode(1);
+    vector<int> v{1,2,3,3,3};
 
-    HouseRobberThree hbt;
-    hbt.rob(root);
+    RandomPickIndex rpi(v);
+    rpi.pick(3);
+
 
     return 0;
 }
