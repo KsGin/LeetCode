@@ -8,16 +8,14 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "RandomPickIndex.h"
+#include "Base7.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> v{1,2,3,3,3};
-
-    RandomPickIndex rpi(v);
-    rpi.pick(3);
+    Base7 b7;
+    b7.convertToBase7(100);
 
 
     return 0;

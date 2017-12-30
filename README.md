@@ -191,3 +191,4 @@
 135. [Odd Even Linked List(LeetCode#328)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/OddEvenLinkedList.h)
 136. [House Robber Three(LeetCode#337)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/HouseRobberThree.h)
 137. [Random Pick Index(LeetCode#398)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RandomPickIndex.h)
+138. [Base7(LeetCode#504)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Base7.h)
