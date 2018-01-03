@@ -193,3 +193,4 @@
 137. [Random Pick Index(LeetCode#398)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RandomPickIndex.h)
 138. [Base7(LeetCode#504)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Base7.h)
 139. [Find The Duplicate Number(LeetCode#287)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindTheDuplicateNumber.h)
+140. [Exclusive Time Of Functions(LeetCode#636)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExclusiveTimeOfFunctions.h)
