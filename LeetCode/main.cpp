@@ -8,14 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "Base7.h"
+#include "TargetSum.h"
 
 using namespace std;
 
 int main() {
 
-    Base7 b7;
-    b7.convertToBase7(100);
+    vector<int> rs{1,1,1,1,1};
+
+    TargetSum ts;
+    int ret = ts.findTargetSumWays(rs,3);
 
 
     return 0;
