@@ -8,17 +8,15 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "TargetSum.h"
+#include "ReverseStringTwo.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> rs{1,1,1,1,1};
 
-    TargetSum ts;
-    int ret = ts.findTargetSumWays(rs,3);
-
+    ReverseStringTwo rst;
+    rst.reverseStr("abcdefgh", 3);
 
     return 0;
 }

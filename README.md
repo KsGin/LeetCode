@@ -195,3 +195,4 @@
 139. [Find The Duplicate Number(LeetCode#287)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindTheDuplicateNumber.h)
 140. [Exclusive Time Of Functions(LeetCode#636)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ExclusiveTimeOfFunctions.h)
 141. [Target Sum(LeetCode#494)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TargetSum.h)
+142. [Reverse String Two(LeetCode#541)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseStringTwo.h)
