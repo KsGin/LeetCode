@@ -8,15 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "ReverseStringTwo.h"
+#include "LongestWordInDictionaryThroughDeleting.h"
 
 using namespace std;
 
 int main() {
 
+    std::vector<std::string> a{"ale","apple","monkey","plea"};
 
-    ReverseStringTwo rst;
-    rst.reverseStr("abcdefgh", 3);
+    LongestWordInDictionaryThroughDeleting lwdtd;
+    lwdtd.findLongestWord("abpcplea", a);
 
     return 0;
 }
