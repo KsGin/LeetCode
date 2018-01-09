@@ -197,3 +197,4 @@
 141. [Target Sum(LeetCode#494)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/TargetSum.h)
 142. [Reverse String Two(LeetCode#541)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ReverseStringTwo.h)
 143. [Longest Word in Dictionary through Deleting(LeetCode#524)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestWordInDictionaryThroughDeleting.h)
+144. [Shopping Offers(LeetCode#638)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShoppingOffers.h)
