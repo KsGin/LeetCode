@@ -199,3 +199,4 @@
 143. [Longest Word in Dictionary through Deleting(LeetCode#524)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestWordInDictionaryThroughDeleting.h)
 144. [Shopping Offers(LeetCode#638)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShoppingOffers.h)
 145. [Find Anagram Mappings(LeetCode#760)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindAnagramMappings.h)
+146. [Self Dividing Numbers(LeetCode#728)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SelfDividingNumbers.h)

@@ -8,16 +8,14 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "LongestWordInDictionaryThroughDeleting.h"
+#include "SelfDividingNumbers.h"
 
 using namespace std;
 
 int main() {
 
-    std::vector<std::string> a{"ale","apple","monkey","plea"};
-
-    LongestWordInDictionaryThroughDeleting lwdtd;
-    lwdtd.findLongestWord("abpcplea", a);
+    SelfDividingNumbers sdn;
+    sdn.selfDividingNumbers(1 , 22);
 
     return 0;
 }
