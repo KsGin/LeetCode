@@ -200,3 +200,4 @@
 144. [Shopping Offers(LeetCode#638)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShoppingOffers.h)
 145. [Find Anagram Mappings(LeetCode#760)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindAnagramMappings.h)
 146. [Self Dividing Numbers(LeetCode#728)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SelfDividingNumbers.h)
+147. [Find Smallest Letter Greater Than Target(LeetCode#744)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindSmallestLetterGreaterThanTarget.h)
