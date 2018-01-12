@@ -1,122 +1,1 @@
-cmake_minimum_required(VERSION 3.7)
-project(LeetCode)
-
-set(CMAKE_CXX_STANDARD 14)
-
-set(SOURCE_FILES
-        LeetCode/ContainerWithMostWater.h
-        LeetCode/DivideTwoIntegers.h
-        LeetCode/FindMedianSortedArrays.h
-        LeetCode/FourSum.h
-        LeetCode/GenerateParentheses.h
-        LeetCode/ImplementStrStr.h
-        LeetCode/IntegerToRoman.h
-        LeetCode/IsPalindrome.h
-        LeetCode/LetterCombinations.h
-        LeetCode/LongestCommonPrefix.h
-        LeetCode/LongestPalindrome.h
-        LeetCode/LongestValidParentheses.h
-        LeetCode/main.cpp
-        LeetCode/MergeKSortedLists.h
-        LeetCode/MergeTwoSortedLists.h
-        LeetCode/NextPermutation.h
-        LeetCode/RegularExpressionMatching.h
-        LeetCode/RemoveDuplicates.h
-        LeetCode/RemoveElement.h
-        LeetCode/RemoveNthNode.h
-        LeetCode/ReverseInteger.h
-        LeetCode/ReverseNodesInKGroup.h
-        LeetCode/RomanToInteger.h
-        LeetCode/SearchInRotatedSortedArray.h
-        LeetCode/SearchInsertPosition.h
-        LeetCode/SearchRange.h
-        LeetCode/StringToInt.h
-        LeetCode/SubstringWithConcatenationOfAllWords.h
-        LeetCode/SwapNodesInPairs.h
-        LeetCode/ThreeSum.h
-        LeetCode/ThreeSumClosest.h
-        LeetCode/ValidParentheses.h
-        LeetCode/ValidSudoku.h
-        LeetCode/ZigZagConversion.h
-        LeetCode/FirstMissingPositive.h
-        LeetCode/CountAndSay.h
-        LeetCode/SudokuSolver.h
-        LeetCode/CombinationSumII.h
-        LeetCode/CombinationSum.h
-        LeetCode/TrappingRainWater.h
-        LeetCode/MultiplyStrings.h
-        LeetCode/WildcardMatching.h
-        LeetCode/JumpGame2.h
-        LeetCode/Permutations.h
-        LeetCode/PermutationsTwo.h
-        LeetCode/RotateImage.h
-        LeetCode/GroupAnagrams.h
-        LeetCode/Pow.h
-        LeetCode/EncodeAndDecodeTinyURL.h
-        LeetCode/MaximumBinaryTree.h
-        LeetCode/HammingDistance.h
-        LeetCode/JudgeRouteCircle.h
-        LeetCode/MergeTwoBinaryTrees.h
-        LeetCode/ArrayPartitionOne.h
-        LeetCode/ComplexNumberMultiplication.h
-        LeetCode/BattleshipsInABoard.h
-        LeetCode/CountingBits.h
-        LeetCode/NumberComplement.h
-        LeetCode/KeyboardRow.h
-        LeetCode/ReverseWordsInAStringThree.h
-        LeetCode/ReverseString.h
-        LeetCode/DistributeCandies.h 
-        LeetCode/ReshapeTheMatrix.h
-        LeetCode/FizzBuzz.h
-        LeetCode/TrimABinarySearchTree.h
-        LeetCode/IslandPerimeter.h
-        LeetCode/NextGreaterElementOne.h
-        LeetCode/AverageOfLevelsInBinaryTree.h
-        LeetCode/FindBottomLeftTreeValue.h
-        LeetCode/FindAllDuplicatesInAnArray.h
-        LeetCode/QueueReconstructionByHeight.h
-        LeetCode/SingleElementInASortedArray.h
-        LeetCode/LongestUncommonSubsequenceI.h
-        LeetCode/NimGame.h
-        LeetCode/OptimalDivision.h
-        LeetCode/BeautifulArrangement.h
-        LeetCode/FindLargestValueInEachTreeRow.h
-        LeetCode/BaseballGame.h
-        LeetCode/SingleNumber.h
-        LeetCode/ArithmeticSlices.h
-        LeetCode/EmployeeImportance.h
-        LeetCode/MapSumPairs.h
-        LeetCode/MaxConsecutiveOnes.h
-        LeetCode/MaximumDepthOfBinaryTree.h
-        LeetCode/MostFrequentSubtreeSum.h
-        LeetCode/InvertBinaryTree.h
-        LeetCode/SingleNumberThree.h
-        LeetCode/MaxAreaOfIsland.h
-        LeetCode/DetectCapital.h
-        LeetCode/BinaryNumberWithAlternatingBits.h
-        LeetCode/BeautifulArrangementTwo.h
-        LeetCode/MinimumMovesToEqualArrayElementsTwo.h
-        LeetCode/TeemoAttacking.h
-        LeetCode/AddDigits.h
-        LeetCode/FindAllNumbersDisappearedInAnArray.h
-        LeetCode/CountBinarySubstrings.h
-        LeetCode/SumOfTwoIntegers.h
-        LeetCode/SortCharactersByFrequency.h
-        LeetCode/FindTheDifference.h
-        LeetCode/TwoSumFour.h
-        LeetCode/PrintBinaryTree.h
-        LeetCode/MoveZeroes.h
-        LeetCode/ImplementMagicDictionary.h
-        LeetCode/ConstructStringFromBinaryTree.h
-        LeetCode/ProductOfArrayExceptSelf.h
-        LeetCode/Minesweeper.h
-        LeetCode/ConvertBSTToGreaterTree.h
-        LeetCode/FriendCircles.h
-        LeetCode/OneBitAndTwoBitCharacters.h
-        LeetCode/MinimumASCIIDeleteSumForTwoStrings.h
-        LeetCode/TopKFrequentElements.h
-        LeetCode/ConstructTheRectangle.h
-        LeetCode/RangeAdditionTwo.h
-        LeetCode/DegreeOfAnArray.h LeetCode/BulbSwitcherTwo.h LeetCode/ExcelSheetColumnNumber.h LeetCode/ExcelSheetColumnTitle.h LeetCode/BinaryTreeInorderTraversal.h LeetCode/TotalHammingDistance.h LeetCode/MinimumMovesToEqualArrayElements.h LeetCode/BestTimeToBuyAndSellStockTwo.h LeetCode/IntersectionOfTwoArrays.h LeetCode/MaximumLengthOfPairChain.h LeetCode/CopyListWithRandomPointer.h LeetCode/RansomNote.h LeetCode/NextGreaterElementTwo.h LeetCode/SumOfLeftLeaves.h LeetCode/ReplaceWords.h LeetCode/FourSumTwo.h LeetCode/MajorityElement.h LeetCode/BinaryTreeTilt.h LeetCode/AssignCookies.h LeetCode/TwoSumTwoInputArrayIsSorted.h LeetCode/LinkedListRandomNode.h LeetCode/FirstUniqueCharacterInAString.h LeetCode/MinimumAbsoluteDifferenceInBST.h "LeetCode/ShuffleAnArray .h" LeetCode/DeleteNodeInALinkedList.h LeetCode/SameTree.h LeetCode/ValidAnagram.h LeetCode/MaximumXOROfTwoNumbersInAnArray.h LeetCode/RelativeRanks.h LeetCode/AddOneRowToTree.h LeetCode/MinimumIndexSumOfTwoLists.h LeetCode/ContainsDuplicate.h LeetCode/IntegerBreak.h LeetCode/ReverseLinkedList.h LeetCode/CountNumbersWithUniqueDigits.h LeetCode/BrickWall.h LeetCode/CombinationSumThree.h LeetCode/DiagonalTraverse.h LeetCode/ImageSmoother.h LeetCode/FractionAdditionAndSubtraction.h LeetCode/AddTwoNumbersTwo.h LeetCode/MinimumTimeDifference.h LeetCode/NQueensTwo.h LeetCode/NQueenOne.h LeetCode/NumberOfBoomerangs.h LeetCode/BinaryTreePreorderTraversal.h LeetCode/MagicalString.h LeetCode/LongestPalindromeLength.h LeetCode/FloodFill.h LeetCode/PredictTheWinner.h LeetCode/KthSmallestElementInASortedMatrix.h LeetCode/NumberOfAtoms.h LeetCode/DifferentWaysToAddParentheses.h LeetCode/MaximumProductOfThreeNumbers.h LeetCode/MaximumProductOfWordLengths.h LeetCode/BinaryWatch.h LeetCode/IntersectionOfTwoArraysTwo.h LeetCode/TwoKeysKeyboard.h LeetCode/DiameterOfBinaryTree.h LeetCode/IsSubsequence.h LeetCode/ReconstructOriginalDigitsFromEnglish.h LeetCode/MinimumNumberOfArrowsToBurstBalloons.h LeetCode/MissingNumber.h LeetCode/DeleteOperationForTwoStrings.h LeetCode/StudentAttendanceRecordOne.h LeetCode/OddEvenLinkedList.h LeetCode/HouseRobberThree.h LeetCode/RandomPickIndex.h LeetCode/Base7.h LeetCode/FindTheDuplicateNumber.h LeetCode/ExclusiveTimeOfFunctions.h LeetCode/TargetSum.h LeetCode/ReverseStringTwo.h LeetCode/LongestWordInDictionaryThroughDeleting.h LeetCode/ShoppingOffers.h LeetCode/FindAnagramMappings.h LeetCode/SelfDividingNumbers.h LeetCode/FindSmallestLetterGreaterThanTarget.h)
-
-add_executable(LeetCode ${SOURCE_FILES})
+cmake_minimum_required(VERSION 3.7)project(LeetCode)set(CMAKE_CXX_STANDARD 14)set(SOURCE_FILES        LeetCode/ContainerWithMostWater.h        LeetCode/DivideTwoIntegers.h        LeetCode/FindMedianSortedArrays.h        LeetCode/FourSum.h        LeetCode/GenerateParentheses.h        LeetCode/ImplementStrStr.h        LeetCode/IntegerToRoman.h        LeetCode/IsPalindrome.h        LeetCode/LetterCombinations.h        LeetCode/LongestCommonPrefix.h        LeetCode/LongestPalindrome.h        LeetCode/LongestValidParentheses.h        LeetCode/main.cpp        LeetCode/MergeKSortedLists.h        LeetCode/MergeTwoSortedLists.h        LeetCode/NextPermutation.h        LeetCode/RegularExpressionMatching.h        LeetCode/RemoveDuplicates.h        LeetCode/RemoveElement.h        LeetCode/RemoveNthNode.h        LeetCode/ReverseInteger.h        LeetCode/ReverseNodesInKGroup.h        LeetCode/RomanToInteger.h        LeetCode/SearchInRotatedSortedArray.h        LeetCode/SearchInsertPosition.h        LeetCode/SearchRange.h        LeetCode/StringToInt.h        LeetCode/SubstringWithConcatenationOfAllWords.h        LeetCode/SwapNodesInPairs.h        LeetCode/ThreeSum.h        LeetCode/ThreeSumClosest.h        LeetCode/ValidParentheses.h        LeetCode/ValidSudoku.h        LeetCode/ZigZagConversion.h        LeetCode/FirstMissingPositive.h        LeetCode/CountAndSay.h        LeetCode/SudokuSolver.h        LeetCode/CombinationSumII.h        LeetCode/CombinationSum.h        LeetCode/TrappingRainWater.h        LeetCode/MultiplyStrings.h        LeetCode/WildcardMatching.h        LeetCode/JumpGame2.h        LeetCode/Permutations.h        LeetCode/PermutationsTwo.h        LeetCode/RotateImage.h        LeetCode/GroupAnagrams.h        LeetCode/Pow.h        LeetCode/EncodeAndDecodeTinyURL.h        LeetCode/MaximumBinaryTree.h        LeetCode/HammingDistance.h        LeetCode/JudgeRouteCircle.h        LeetCode/MergeTwoBinaryTrees.h        LeetCode/ArrayPartitionOne.h        LeetCode/ComplexNumberMultiplication.h        LeetCode/BattleshipsInABoard.h        LeetCode/CountingBits.h        LeetCode/NumberComplement.h        LeetCode/KeyboardRow.h        LeetCode/ReverseWordsInAStringThree.h        LeetCode/ReverseString.h        LeetCode/DistributeCandies.h        LeetCode/ReshapeTheMatrix.h        LeetCode/FizzBuzz.h        LeetCode/TrimABinarySearchTree.h        LeetCode/IslandPerimeter.h        LeetCode/NextGreaterElementOne.h        LeetCode/AverageOfLevelsInBinaryTree.h        LeetCode/FindBottomLeftTreeValue.h        LeetCode/FindAllDuplicatesInAnArray.h        LeetCode/QueueReconstructionByHeight.h        LeetCode/SingleElementInASortedArray.h        LeetCode/LongestUncommonSubsequenceI.h        LeetCode/NimGame.h        LeetCode/OptimalDivision.h        LeetCode/BeautifulArrangement.h        LeetCode/FindLargestValueInEachTreeRow.h        LeetCode/BaseballGame.h        LeetCode/SingleNumber.h        LeetCode/ArithmeticSlices.h        LeetCode/EmployeeImportance.h        LeetCode/MapSumPairs.h        LeetCode/MaxConsecutiveOnes.h        LeetCode/MaximumDepthOfBinaryTree.h        LeetCode/MostFrequentSubtreeSum.h        LeetCode/InvertBinaryTree.h        LeetCode/SingleNumberThree.h        LeetCode/MaxAreaOfIsland.h        LeetCode/DetectCapital.h        LeetCode/BinaryNumberWithAlternatingBits.h        LeetCode/BeautifulArrangementTwo.h        LeetCode/MinimumMovesToEqualArrayElementsTwo.h        LeetCode/TeemoAttacking.h        LeetCode/AddDigits.h        LeetCode/FindAllNumbersDisappearedInAnArray.h        LeetCode/CountBinarySubstrings.h        LeetCode/SumOfTwoIntegers.h        LeetCode/SortCharactersByFrequency.h        LeetCode/FindTheDifference.h        LeetCode/TwoSumFour.h        LeetCode/PrintBinaryTree.h        LeetCode/MoveZeroes.h        LeetCode/ImplementMagicDictionary.h        LeetCode/ConstructStringFromBinaryTree.h        LeetCode/ProductOfArrayExceptSelf.h        LeetCode/Minesweeper.h        LeetCode/ConvertBSTToGreaterTree.h        LeetCode/FriendCircles.h        LeetCode/OneBitAndTwoBitCharacters.h        LeetCode/MinimumASCIIDeleteSumForTwoStrings.h        LeetCode/TopKFrequentElements.h        LeetCode/ConstructTheRectangle.h        LeetCode/RangeAdditionTwo.h        LeetCode/DegreeOfAnArray.h        LeetCode/BulbSwitcherTwo.h        LeetCode/ExcelSheetColumnNumber.h        LeetCode/ExcelSheetColumnTitle.h        LeetCode/BinaryTreeInorderTraversal.h        LeetCode/TotalHammingDistance.h        LeetCode/MinimumMovesToEqualArrayElements.h        LeetCode/BestTimeToBuyAndSellStockTwo.h        LeetCode/IntersectionOfTwoArrays.h        LeetCode/MaximumLengthOfPairChain.h        LeetCode/CopyListWithRandomPointer.h LeetCode/RansomNote.h LeetCode/NextGreaterElementTwo.h LeetCode/SumOfLeftLeaves.h LeetCode/ReplaceWords.h LeetCode/FourSumTwo.h LeetCode/MajorityElement.h LeetCode/BinaryTreeTilt.h LeetCode/AssignCookies.h LeetCode/TwoSumTwoInputArrayIsSorted.h LeetCode/LinkedListRandomNode.h LeetCode/FirstUniqueCharacterInAString.h LeetCode/MinimumAbsoluteDifferenceInBST.h "LeetCode/ShuffleAnArray .h" LeetCode/DeleteNodeInALinkedList.h LeetCode/SameTree.h LeetCode/ValidAnagram.h LeetCode/MaximumXOROfTwoNumbersInAnArray.h LeetCode/RelativeRanks.h LeetCode/AddOneRowToTree.h LeetCode/MinimumIndexSumOfTwoLists.h LeetCode/ContainsDuplicate.h LeetCode/IntegerBreak.h LeetCode/ReverseLinkedList.h LeetCode/CountNumbersWithUniqueDigits.h LeetCode/BrickWall.h LeetCode/CombinationSumThree.h LeetCode/DiagonalTraverse.h LeetCode/ImageSmoother.h LeetCode/FractionAdditionAndSubtraction.h LeetCode/AddTwoNumbersTwo.h LeetCode/MinimumTimeDifference.h LeetCode/NQueensTwo.h LeetCode/NQueenOne.h LeetCode/NumberOfBoomerangs.h LeetCode/BinaryTreePreorderTraversal.h LeetCode/MagicalString.h LeetCode/LongestPalindromeLength.h LeetCode/FloodFill.h LeetCode/PredictTheWinner.h LeetCode/KthSmallestElementInASortedMatrix.h LeetCode/NumberOfAtoms.h LeetCode/DifferentWaysToAddParentheses.h LeetCode/MaximumProductOfThreeNumbers.h LeetCode/MaximumProductOfWordLengths.h LeetCode/BinaryWatch.h LeetCode/IntersectionOfTwoArraysTwo.h LeetCode/TwoKeysKeyboard.h LeetCode/DiameterOfBinaryTree.h LeetCode/IsSubsequence.h LeetCode/ReconstructOriginalDigitsFromEnglish.h LeetCode/MinimumNumberOfArrowsToBurstBalloons.h LeetCode/MissingNumber.h LeetCode/DeleteOperationForTwoStrings.h LeetCode/StudentAttendanceRecordOne.h LeetCode/OddEvenLinkedList.h LeetCode/HouseRobberThree.h LeetCode/RandomPickIndex.h LeetCode/Base7.h LeetCode/FindTheDuplicateNumber.h LeetCode/ExclusiveTimeOfFunctions.h LeetCode/TargetSum.h LeetCode/ReverseStringTwo.h LeetCode/LongestWordInDictionaryThroughDeleting.h LeetCode/ShoppingOffers.h LeetCode/FindAnagramMappings.h        LeetCode/SelfDividingNumbers.h        LeetCode/FindSmallestLetterGreaterThanTarget.h)add_executable(LeetCode ${SOURCE_FILES})
