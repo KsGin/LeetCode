@@ -8,14 +8,14 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "SelfDividingNumbers.h"
+#include "PartitionLabels.h"
 
 using namespace std;
 
 int main() {
 
-    SelfDividingNumbers sdn;
-    sdn.selfDividingNumbers(1 , 22);
+    PartitionLabels pl;
+    pl.partitionLabels("ababcbacadefegdehijhklij");
 
     return 0;
 }
