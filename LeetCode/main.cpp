@@ -8,14 +8,14 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "PartitionLabels.h"
+#include "PrimeNumberOfSetBitsInBinaryRepresentation.h"
 
 using namespace std;
 
 int main() {
 
-    PartitionLabels pl;
-    pl.partitionLabels("ababcbacadefegdehijhklij");
+    PrimeNumberOfSetBitsInBinaryRepresentation posb;
+    posb.countPrimeSetBits(6,10);
 
     return 0;
 }
