@@ -8,14 +8,27 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "PrimeNumberOfSetBitsInBinaryRepresentation.h"
+#include "EmployeeFreeTime.h"
 
 using namespace std;
 
 int main() {
 
-    PrimeNumberOfSetBitsInBinaryRepresentation posb;
-    posb.countPrimeSetBits(6,10);
+    EmployeeFreeTime eft;
+    vector<vector<Interval>> schedule {
+            vector<Interval>{
+                    Interval(1,2),
+                    Interval(5,6)
+            },
+            vector<Interval>{
+                    Interval(1,3)
+            },
+            vector<Interval>{
+                    Interval(4,10)
+            }
+    };
+    eft.employeeFreeTime(schedule);
+
 
     return 0;
 }
