@@ -204,3 +204,4 @@
 148. [Partition Labels(LeetCode#763)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/PartitionLabels.h)
 149. [Prime Number Of Set Bits In Binary Representation(LeetCode#762)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/PrimeNumberOfSetBitsInBinaryRepresentation.h)
 150. [Employee Free Time(LeetCode#759)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EmployeeFreeTime.h)
+151. [Largest Number At Least Twice Of Others(LeetCode#747)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LargestNumberAtLeastTwiceOfOthers.h)

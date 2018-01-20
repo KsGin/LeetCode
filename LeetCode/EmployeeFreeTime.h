@@ -37,12 +37,12 @@ public:
         vector<Interval> ret(0);
         if(allInterval.empty())
             return ret;
-        int start = allInterval[0].start;
+        int end = allInterval[0].end;
         for (auto ins : allInterval){
-            if(ins.start <= start) start = max(start , ins.end);
+            if(ins.start <= end) end = max(end , ins.end);
             else {
-                ret.emplace_back(start,ins.start);
-                start = ins.end;
+                ret.emplace_back(end,ins.start);
+                end = ins.end;
             }
         }
         return ret;

@@ -194,6 +194,6 @@ set(SOURCE_FILES
         LeetCode/ShoppingOffers.h
         LeetCode/FindAnagramMappings.h
         LeetCode/SelfDividingNumbers.h
-        LeetCode/FindSmallestLetterGreaterThanTarget.h LeetCode/PartitionLabels.h LeetCode/PrimeNumberOfSetBitsInBinaryRepresentation.h LeetCode/EmployeeFreeTime.h)
+        LeetCode/FindSmallestLetterGreaterThanTarget.h LeetCode/PartitionLabels.h LeetCode/PrimeNumberOfSetBitsInBinaryRepresentation.h LeetCode/EmployeeFreeTime.h LeetCode/LargestNumberAtLeastTwiceOfOthers.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
