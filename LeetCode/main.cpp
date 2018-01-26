@@ -8,16 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "MaxChunksToMakeSorted.h"
+#include "Subsets.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> s{2,0,1};
+    vector<int> set{1, 2, 3};
 
-    MaxChunksToMakeSorted mcts;
-    mcts.maxChunksToSorted(s);
+    Subsets ss;
+    ss.subsets(set);
 
     return 0;
 }
