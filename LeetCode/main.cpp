@@ -8,16 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "Subsets.h"
+#include "ConvertSortedArrayToBinarySearchTree.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> set{1, 2, 3};
+    vector<int> nums{-10,-3,0,5,9};
 
-    Subsets ss;
-    ss.subsets(set);
+    ConvertSortedArrayToBinarySearchTree vsatbst;
+    vsatbst.sortedArrayToBST(nums);
 
     return 0;
 }
