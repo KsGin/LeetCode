@@ -8,16 +8,15 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "ConvertSortedArrayToBinarySearchTree.h"
+#include "SlidingPuzzle.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums{-10,-3,0,5,9};
 
-    ConvertSortedArrayToBinarySearchTree vsatbst;
-    vsatbst.sortedArrayToBST(nums);
-
+    SlidingPuzzle sp;
+    vector<vector<int>> vc{{1,2,3},{4,0,5}};
+    sp.slidingPuzzle(vc);
     return 0;
 }

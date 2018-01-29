@@ -8,93 +8,59 @@
 #define LEETCODE_SLIDINGPUZZLE_H
 
 #include <vector>
-#include <string>
-#include <unordered_set>
-#include <queue>
+#include <unordered_map>
 
 using namespace std;
 
 class SlidingPuzzle {
 
-    string toString(vector<vector<int>>& board){
-        string res;
-        for(int i=0; i<board.size(); ++i)
-            for(int j=0; j<board[i].size(); ++j){
-                res.push_back(static_cast<char>(board[i][j] + '0'));
-            }
-        return res;
-    }
+    void helper(unordered_map<string,int>& um , string state , int step){
+        if(um.count(state) == 1) um[state] = min(step , um[state]);
+        else um[state] = step;
 
-    vector<string> nextState(string s){
-
-        vector<string> res;
-        int i = static_cast<int>(s.find_first_of('0'));
-        // up
-        if(i >=3){
-            string tmp = s;
-            swap(tmp[i],tmp[i-3]);
-            res.push_back(tmp);
+        int idx = static_cast<int>(state.find_first_of('0'));
+        if(idx < 3){
+            swap(state[idx] , state[idx+3]);
+            if(!um.count(state) || um[state] > step)
+                helper(um , state , step+1);
+            swap(state[idx] , state[idx+3]);
         }
-        //down
-        if(i<3){
-            string tmp = s;
-            swap(tmp[i],tmp[i+3]);
-            res.push_back(tmp);
+        if(idx >= 3){
+            swap(state[idx] , state[idx-3]);
+            if(!um.count(state) || um[state] > step)
+                helper(um , state , step+1);
+            swap(state[idx] , state[idx-3]);
         }
-
-        // left
-        if(i==1 || i==2 || i ==4 || i==5){
-            string tmp = s;
-            swap(tmp[i],tmp[i-1]);
-            res.push_back(tmp);
+        if(idx != 2 && idx != 5){
+            swap(state[idx] , state[idx+1]);
+            if(!um.count(state) || um[state] > step)
+                helper(um , state , step+1);
+            swap(state[idx] , state[idx+1]);
         }
-
-        // right;
-        if(i==0 || i== 1||i==3||i==4){
-            string tmp = s;
-            swap(tmp[i],tmp[i+1]);
-            res.push_back(tmp);
+        if(idx != 0 && idx != 3){
+            swap(state[idx] , state[idx-1]);
+            if(!um.count(state) || um[state] > step)
+                helper(um , state , step+1);
+            swap(state[idx] , state[idx-1]);
         }
-        return res;
     }
 
 public:
-    int slidingPuzzle(vector<vector<int>> board) {
-        unordered_set<string> visited;
-
-        string init = toString(board);
-        string end ="123450";
-        int step = 0;
-
-        queue<string> q;
-        q.push(init);
-        visited.insert(init);
-
-        while(!q.empty()){
-            int size = static_cast<int>(q.size());
-            for(int i=0; i<size; ++i){
-                string tmpState = q.front();
-                q.pop();
-                if(tmpState == end){
-                    return step;
-                }
-                vector<string> nexts = nextState(tmpState);
-                for(string s: nexts){
-                    if(visited.count(s)==0){
-                        q.push(s);
-                        visited.insert(s);
-                    }
-
-                }
-
-
-            }
-            step += 1;
-
+    int slidingPuzzle(vector<vector<int>>& board) {
+        string start = "";
+        for (auto i : board){
+            for (auto j : i) start.push_back(static_cast<char>(j + '0'));
         }
+        string end = "123450";
+        unordered_map<string , int> um;
+        helper(um , end , 0);
+        for (auto r : um){
+            cout << r.first + " : " << r.second << endl;
+        }
+        if(um.count(start) == 1) return um[start];
         return -1;
-
     }
+
 };
 
 #endif //LEETCODE_SLIDINGPUZZLE_H
