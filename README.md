@@ -211,3 +211,4 @@
 155. [Subsets(LeetCode#78)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Subsets.h)
 156. [Convert Sorted Array To Binary Search Tree(LeetCode#108)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ConvertSortedArrayToBinarySearchTree.h)
 157. [Sliding Puzzle(LeetCode#773)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SlidingPuzzle.h)
+158. [Basic Calculator Four(LeetCode#770)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BasicCalculatorFour.h)

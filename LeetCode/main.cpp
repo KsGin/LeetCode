@@ -8,15 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "SlidingPuzzle.h"
+#include "BurstBalloons.h"
 
 using namespace std;
 
 int main() {
 
+    vector<int> nums{3, 1, 5, 8};
 
-    SlidingPuzzle sp;
-    vector<vector<int>> vc{{1,2,3},{4,0,5}};
-    sp.slidingPuzzle(vc);
+    BurstBalloons bb;
+    bb.maxCoins(nums);
+
     return 0;
 }
