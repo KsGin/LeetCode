@@ -12,40 +12,21 @@
 using namespace std;
 
 class BurstBalloons {
-    vector<int> indexOfMaxCoins(vector<int>& nums , vector<int>& bursted){
-        vector<int> notVisted(0);
-        vector<int> res(0);
-        for (int i = 0; i < nums.size(); ++i) {
-            if(find(begin(bursted) , end(bursted) , nums[i]) == end(bursted)){
-                notVisted.push_back(i);
-            }
-        }
-        if(notVisted.empty()) return res;
-        int cot = 0;
-        for (int i = 0; i < notVisted.size(); ++i) {
-            int tmp = nums[notVisted[i]];
-            if(i > 0) tmp *= nums[notVisted[i-1]];
-            if(i < notVisted.size()-1) tmp *= nums[notVisted[i+1]];
-            if(tmp > cot) cot = i;
-        }
-        if(cot > 0) res.push_back(notVisted[cot-1]);
-        res.push_back(notVisted[cot]);
-        if(cot < notVisted.size()-1) res.push_back(notVisted[cot+1]);
-        bursted.push_back(cot);
-        return res;
-    }
-
 public:
     int maxCoins(vector<int>& nums) {
-        int ret = 0;
-        vector<int> bursted(0);
-        while (bursted.size() < nums.size()){
-            vector<int> tt = indexOfMaxCoins(nums,bursted);
-            int tmp = 1;
-            for (auto num : tt) tmp *= num;
-            ret += tmp;
+        int n = static_cast<int>(nums.size());
+        nums.insert(nums.begin(), 1);
+        nums.push_back(1);
+        vector<vector<int> > dp(nums.size(), vector<int>(nums.size() , 0));
+        for (int len = 1; len <= n; ++len) {
+            for (int left = 1; left <= n - len + 1; ++left) {
+                int right = left + len - 1;
+                for (int k = left; k <= right; ++k) {
+                    dp[left][right] = max(dp[left][right], nums[left - 1] * nums[k] * nums[right + 1] + dp[left][k - 1] + dp[k + 1][right]);
+                }
+            }
         }
-        return ret;
+        return dp[1][n];
     }
 };
 
