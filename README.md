@@ -213,3 +213,4 @@
 157. [Sliding Puzzle(LeetCode#773)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SlidingPuzzle.h)
 158. [Basic Calculator Four(LeetCode#770)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BasicCalculatorFour.h)
 159. [Pyramid Transition Matrix(LeetCode#756)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/PyramidTransitionMatrix.h)
+160. [Delete And Earn(LeetCode#740)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DeleteAndEarn.h)
