@@ -194,6 +194,6 @@ set(SOURCE_FILES
         LeetCode/ShoppingOffers.h
         LeetCode/FindAnagramMappings.h
         LeetCode/SelfDividingNumbers.h
-        LeetCode/FindSmallestLetterGreaterThanTarget.h LeetCode/PartitionLabels.h LeetCode/PrimeNumberOfSetBitsInBinaryRepresentation.h LeetCode/EmployeeFreeTime.h LeetCode/LargestNumberAtLeastTwiceOfOthers.h LeetCode/MinCostClimbingStairs.h LeetCode/BestTimeToBuyAndSellStockWithTransactionFee.h LeetCode/MaxChunksToMakeSorted.h LeetCode/Subsets.h LeetCode/ConvertSortedArrayToBinarySearchTree.h LeetCode/SlidingPuzzle.h LeetCode/BasicCalculatorFour.h LeetCode/BurstBalloons.h)
+        LeetCode/FindSmallestLetterGreaterThanTarget.h LeetCode/PartitionLabels.h LeetCode/PrimeNumberOfSetBitsInBinaryRepresentation.h LeetCode/EmployeeFreeTime.h LeetCode/LargestNumberAtLeastTwiceOfOthers.h LeetCode/MinCostClimbingStairs.h LeetCode/BestTimeToBuyAndSellStockWithTransactionFee.h LeetCode/MaxChunksToMakeSorted.h LeetCode/Subsets.h LeetCode/ConvertSortedArrayToBinarySearchTree.h LeetCode/SlidingPuzzle.h LeetCode/BasicCalculatorFour.h LeetCode/BurstBalloons.h LeetCode/PyramidTransitionMatrix.h)
 
 add_executable(LeetCode ${SOURCE_FILES})

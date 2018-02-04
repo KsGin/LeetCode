@@ -8,16 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "BurstBalloons.h"
+#include "PyramidTransitionMatrix.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> nums{3, 1, 5, 8};
+    vector<string> allowed{"CDD","CBC","ACA","BDD","ADD","DCA","BAD","ADA"};
 
-    BurstBalloons bb;
-    bb.maxCoins(nums);
+    PyramidTransitionMatrix pytm;
+    pytm.pyramidTransition("CB" , allowed);
 
     return 0;
 }
