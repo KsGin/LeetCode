@@ -217,3 +217,4 @@
 161. [Binary Search Tree Iterator(LeetCode#173)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinarySearchTreeIterator.h)
 162. [Bulb Switcher(LeetCode#319)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BulbSwitcher.h)
 163. [Flatten Nested List Iterator(LeetCode#341)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FlattenNestedListIterator.h)
+164. [Redundant Connection(LeetCode#684)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RedundantConnection.h)

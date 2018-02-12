@@ -8,16 +8,16 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "PyramidTransitionMatrix.h"
+#include "RedundantConnection.h"
 
 using namespace std;
 
 int main() {
 
-    vector<string> allowed{"CDD","CBC","ACA","BDD","ADD","DCA","BAD","ADA"};
+    vector<vector<int>> rr{{3,4},{1,2},{2,4},{3,5},{2,5}};
 
-    PyramidTransitionMatrix pytm;
-    pytm.pyramidTransition("CB" , allowed);
+    RedundantConnection rc;
+    rc.findRedundantConnection(rr);
 
     return 0;
 }
