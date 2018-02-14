@@ -218,3 +218,4 @@
 162. [Bulb Switcher(LeetCode#319)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BulbSwitcher.h)
 163. [Flatten Nested List Iterator(LeetCode#341)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FlattenNestedListIterator.h)
 164. [Redundant Connection(LeetCode#684)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RedundantConnection.h)
+165. [Jewels And Stones(LeetCode#771)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JewelsAndStones.h)
