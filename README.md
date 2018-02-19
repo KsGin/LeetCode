@@ -221,3 +221,4 @@
 165. [Jewels And Stones(LeetCode#771)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JewelsAndStones.h)
 166. [Toeplitz Matrix(LeetCode#766)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JToeplitzMatrix.h)
 167. [Shortest Completing Word(LeetCode#748)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ShortestCompletingWord.h)
+168. [Daily Temperatures(LeetCode#739)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/DailyTemperatures.h)
