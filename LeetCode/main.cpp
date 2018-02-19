@@ -8,16 +8,14 @@
 
 #include <iostream>
 #include <zconf.h>
-#include "DailyTemperatures.h"
+#include "LetterCasePermutation.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> vc{73,74,75,71,69,72,76,73};
-
-    DailyTemperatures dt;
-    dt.dailyTemperatures(vc);
+    LetterCasePermutation lcp;
+    lcp.letterCasePermutation("a1b2");
 
 
     return 0;
