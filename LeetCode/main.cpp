@@ -7,15 +7,17 @@
 //
 
 #include <iostream>
-#include "CustomSortString.h"
+#include "RabbitsOnForest.h"
 
 using namespace std;
 
 int main() {
 
-    CustomSortString css;
+    vector<int> answers{1,0,1,0,0};
 
-    css.customSortString("kqep","pekeq");
+
+    RabbitsOnForest rof;
+    rof.numRabbits(answers);
 
     return 0;
 }
