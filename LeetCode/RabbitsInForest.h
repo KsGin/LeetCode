@@ -1,5 +1,5 @@
 /*
- * File   : RabbitsOnForest
+ * File   : RabbitsInForest
  * Author : KsGin 
  * Date   : 2018/3/4
  */
@@ -12,7 +12,7 @@
 
 using namespace std;
 
-class RabbitsOnForest {
+class RabbitsInForest {
 public:
     int numRabbits(vector<int>& answers) {
         unordered_map<int , int> rabbitsNumber;

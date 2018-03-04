@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "RabbitsOnForest.h"
+#include "RabbitsInForest.h"
 
 using namespace std;
 
@@ -16,7 +16,7 @@ int main() {
     vector<int> answers{1,0,1,0,0};
 
 
-    RabbitsOnForest rof;
+    RabbitsInForest rof;
     rof.numRabbits(answers);
 
     return 0;
