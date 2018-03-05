@@ -7,17 +7,15 @@
 //
 
 #include <iostream>
-#include "RabbitsInForest.h"
+#include "CouplesHoldingHands.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> answers{1,0,1,0,0};
-
-
-    RabbitsInForest rof;
-    rof.numRabbits(answers);
+    vector<int> vcc{6, 2, 1, 7, 4, 5, 3, 8, 0, 9};
+    CouplesHoldingHands chh;
+    chh.minSwapsCouples(vcc);
 
     return 0;
 }
