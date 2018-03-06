@@ -7,15 +7,19 @@
 //
 
 #include <iostream>
-#include "CouplesHoldingHands.h"
+#include "SplitLinkedListInParts.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> vcc{6, 2, 1, 7, 4, 5, 3, 8, 0, 9};
-    CouplesHoldingHands chh;
-    chh.minSwapsCouples(vcc);
+    ListNode *root = new ListNode(1);
+    root->next = new ListNode(2);
+    root->next->next = new ListNode(3);
+
+    SplitLinkedListInParts sllip;
+
+    sllip.splitListToParts(root , 5);
 
     return 0;
 }
