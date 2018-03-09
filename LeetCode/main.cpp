@@ -7,19 +7,19 @@
 //
 
 #include <iostream>
-#include "SplitLinkedListInParts.h"
+#include "EscapeTheGhosts.h"
 
 using namespace std;
 
 int main() {
 
-    ListNode *root = new ListNode(1);
-    root->next = new ListNode(2);
-    root->next->next = new ListNode(3);
+    vector<vector<int>> ghosts{{2, 0}};
+    vector<int> target{1,0};
 
-    SplitLinkedListInParts sllip;
 
-    sllip.splitListToParts(root , 5);
+    EscapeTheGhosts etg;
+
+    etg.escapeGhosts(ghosts , target);
 
     return 0;
 }
