@@ -7,19 +7,14 @@
 //
 
 #include <iostream>
-#include "EscapeTheGhosts.h"
+#include "ParseLispExpression.h"
 
 using namespace std;
 
 int main() {
 
-    vector<vector<int>> ghosts{{2, 0}};
-    vector<int> target{1,0};
-
-
-    EscapeTheGhosts etg;
-
-    etg.escapeGhosts(ghosts , target);
+    ParseLispExpression ple;
+    ple.evaluate("(let var 78 b 77 (let c 33 (add c (mult var 66))))");
 
     return 0;
 }
