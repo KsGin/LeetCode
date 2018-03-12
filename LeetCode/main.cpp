@@ -7,14 +7,19 @@
 //
 
 #include <iostream>
-#include "ParseLispExpression.h"
+#include "SwimInRisingWater.h"
 
 using namespace std;
 
 int main() {
 
-    ParseLispExpression ple;
-    ple.evaluate("(let var 78 b 77 (let c 33 (add c (mult var 66))))");
+    vector<vector<int>> water {
+            {0 , 2} ,
+            {1 , 3}
+    };
+
+    SwimInRisingWater sirw;
+    sirw.swimInWater(water);
 
     return 0;
 }
