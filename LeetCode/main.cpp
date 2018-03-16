@@ -7,16 +7,14 @@
 //
 
 #include <iostream>
-#include "CombinationSumIV.h"
+#include "LongestRepeatingCharacterReplacement.h"
 
 using namespace std;
 
 int main() {
 
-    vector<int> vec { 1 , 2 , 3};
-
-    CombinationSumIV cbs;
-    cbs.combinationSum4(vec , 7);
+    LongestRepeatingCharacterReplacement lp;
+    lp.characterReplacement("AAAA" , 2);
 
     return 0;
 }

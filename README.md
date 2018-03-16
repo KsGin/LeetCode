@@ -239,3 +239,4 @@
 183. [Longest Palindromic Subsequence(LeetCode#516)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindromicSubsequence.h)
 184. [Best Time To Buy And Sell Stock(LeetCode#121)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BestTimeToBuyAndSellStock.h)
 185. [Combination Sum IV(LeetCode#377)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSumIV.h)
+186. [Longest Repeating Character Replacement(LeetCode#424)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestRepeatingCharacterReplacement.h)
