@@ -7,14 +7,14 @@
 //
 
 #include <iostream>
-#include "LongestRepeatingCharacterReplacement.h"
+#include "EliminationGame.h"
 
 using namespace std;
 
 int main() {
 
-    LongestRepeatingCharacterReplacement lp;
-    lp.characterReplacement("AAAA" , 2);
+    EliminationGame eg;
+    eg.lastRemaining(9);
 
     return 0;
 }
