@@ -241,3 +241,4 @@
 185. [Combination Sum IV(LeetCode#377)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/CombinationSumIV.h)
 186. [Longest Repeating Character Replacement(LeetCode#424)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestRepeatingCharacterReplacement.h)
 187. [Elimination Game(LeetCode#390)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EliminationGame.h)
+188. [Unique Paths(LeetCode#62)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/UniquePaths.h)
