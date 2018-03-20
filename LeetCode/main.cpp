@@ -7,14 +7,15 @@
 //
 
 #include <iostream>
-#include "EliminationGame.h"
+#include "TaskScheduler.h"
 
 using namespace std;
 
 int main() {
 
-    EliminationGame eg;
-    eg.lastRemaining(9);
+    vector<char> dst{'A','A','A' , 'A','B','B','B','B' ,'B' , 'B' , 'B' , 'C' , 'C' , 'C'};
 
+    TaskScheduler tsd;
+    tsd.leastInterval(dst , 2);
     return 0;
 }
