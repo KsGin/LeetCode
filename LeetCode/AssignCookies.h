@@ -8,6 +8,7 @@
 #define LEETCODE_ASSIGNCOOKIES_H
 
 #include <vector>
+#include <algorithm>
 
 class AssignCookies {
 public:
