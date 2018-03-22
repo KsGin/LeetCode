@@ -7,15 +7,12 @@
 //
 
 #include <iostream>
-#include "TaskScheduler.h"
+#include "GrayCode.h"
 
 using namespace std;
 
 int main() {
-
-    vector<char> dst{'A','A','A' , 'A','B','B','B','B' ,'B' , 'B' , 'B' , 'C' , 'C' , 'C'};
-
-    TaskScheduler tsd;
-    tsd.leastInterval(dst , 2);
+    GrayCode gc;
+    gc.grayCode(2);
     return 0;
 }
