@@ -249,3 +249,4 @@
 193. [Binary Tree Right Side View(LeetCode#199)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreeRightSideView.h)
 194. [Binary Tree Level Order Traversal(LeetCode#102)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreeLevelOrderTraversal.h)
 195. [Longest Continuous Increasing Subsequence(LeetCode#674)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestContinuousIncreasingSubsequence.h)
+196. [Lexicographical Numbers(LeetCode#386)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LexicographicalNumbers.h)
