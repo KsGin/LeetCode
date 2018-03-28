@@ -7,12 +7,12 @@
 //
 
 #include <iostream>
-#include "GrayCode.h"
+#include "ChampagneTower.h"
 
 using namespace std;
 
 int main() {
-    GrayCode gc;
-    gc.grayCode(2);
+    ChampagneTower ct;
+    ct.champagneTower(5000 , 12 , 6);
     return 0;
 }
