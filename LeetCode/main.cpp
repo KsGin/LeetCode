@@ -7,12 +7,17 @@
 //
 
 #include <iostream>
-#include "ChampagneTower.h"
+#include "BinaryTreePostOrderTraversal.h"
 
 using namespace std;
 
 int main() {
-    ChampagneTower ct;
-    ct.champagneTower(5000 , 12 , 6);
+    TreeNode* root = new TreeNode(1);
+    root->right = new TreeNode(2);
+    root->right->left = new TreeNode(3);
+
+    BinaryTreePostOrderTraversal btp;
+    btp.postorderTraversal(root);
+
     return 0;
 }
