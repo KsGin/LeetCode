@@ -7,17 +7,16 @@
 //
 
 #include <iostream>
-#include "BinaryTreePostOrderTraversal.h"
+#include "QSqrt.h"
 
 using namespace std;
 
 int main() {
-    TreeNode* root = new TreeNode(1);
-    root->right = new TreeNode(2);
-    root->right->left = new TreeNode(3);
 
-    BinaryTreePostOrderTraversal btp;
-    btp.postorderTraversal(root);
+    QSqrt q;
+    cout << q.mySqrt(2147395600) << endl;
+
+    cout << 46341 * 46341;
 
     return 0;
 }
