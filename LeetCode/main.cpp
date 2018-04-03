@@ -7,16 +7,17 @@
 //
 
 #include <iostream>
-#include "QSqrt.h"
+#include "SpiralMatrix.h"
 
 using namespace std;
 
 int main() {
 
-    QSqrt q;
-    cout << q.mySqrt(2147395600) << endl;
+    vector<vector<int>> v(0);
+    v.push_back(vector<int> { 1 , 2 , 3});
 
-    cout << 46341 * 46341;
+    SpiralMatrix sm;
+    sm.spiralOrder(v);
 
     return 0;
 }
