@@ -258,3 +258,4 @@
 202. [Unique Morse Code Words(LeetCode#804)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/UniqueMorseCodeWords.h)
 203. [QSqrt(LeetCode#69)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/QSqrt.h)
 204. [Spiral Matrix(LeetCode#54)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SpiralMatrix.h)
+205. [Jump Game(LeetCode#55)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JumpGame.h)

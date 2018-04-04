@@ -7,17 +7,15 @@
 //
 
 #include <iostream>
-#include "SpiralMatrix.h"
+#include "JumpGame.h"
 
 using namespace std;
 
 int main() {
 
-    vector<vector<int>> v(0);
-    v.push_back(vector<int> { 1 , 2 , 3});
+    vector<int> v { 0 , 1};
 
-    SpiralMatrix sm;
-    sm.spiralOrder(v);
-
+    JumpGame jg;
+    jg.canJump(v);
     return 0;
 }
