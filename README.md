@@ -1,9 +1,4 @@
-# <center>LeetCode Problem </center>
-
-
-
-## Follow the order of the questions number (from 2017-7-4 to 2017-8-22)
-
+# <center>LeetCode 代码合集</center>
 1. [Find Median Sorted Arrays](https://github.com/KsGin/LeetCode/blob/master/LeetCode/FindMedianSortedArrays.h)
 2. [Longest Palindrome SubString](https://github.com/KsGin/LeetCode/blob/master/LeetCode/LongestPalindrome.h)
 3. [Zig Zag Conversuin](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ZigZagConversion.h)
@@ -51,9 +46,6 @@
 45. [Rotate Image](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RotateImage.h)
 46. [Group Anagrams](https://github.com/KsGin/LeetCode/blob/master/LeetCode/GroupAnagrams.h)
 47. [Pow](https://github.com/KsGin/LeetCode/blob/master/LeetCode/Pow.h)
-
-## Follow the order of question pass rate (after 2017-8-24)
-
 1. [Encode and Decode TinyURL(LeetCode#535)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/EncodeAndDecodeTinyURL.h)
 2. [Maximum Binary Tree(LeetCode#654)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MaximumBinaryTree.h)
 3. [Big Countries(LeetCode#595)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BigCountries.sql)
@@ -259,3 +251,4 @@
 203. [QSqrt(LeetCode#69)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/QSqrt.h)
 204. [Spiral Matrix(LeetCode#54)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SpiralMatrix.h)
 205. [Jump Game(LeetCode#55)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JumpGame.h)
+206. [Merge Intervals(LeetCode#56)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeIntervals.h)
