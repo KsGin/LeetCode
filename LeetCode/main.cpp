@@ -7,12 +7,16 @@
 //
 
 #include <iostream>
-#include "MergeIntervals.h"
+#include "InsertInterval.h"
 
 using namespace std;
 
 int main() {
-    vector<Interval> vc{Interval(1 , 4) , Interval(0 , 4)};
+    vector<Interval> vc{Interval(1, 5)};
+    Interval a(0 , 3);
+
+    InsertInterval it;
+    it.insert(vc , a);
 
     return 0;
 }
