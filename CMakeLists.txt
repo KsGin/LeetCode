@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SOURCE_FILES
         LeetCode/main.cpp
-        LeetCode/InsertInterval.h)
+        LeetCode/InsertInterval.h
+        LeetCode/RotateString.h)
 
 add_executable(LeetCode ${SOURCE_FILES})

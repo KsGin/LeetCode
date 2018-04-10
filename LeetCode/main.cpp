@@ -7,16 +7,14 @@
 //
 
 #include <iostream>
-#include "InsertInterval.h"
+#include "RotateString.h"
 
 using namespace std;
 
 int main() {
-    vector<Interval> vc{Interval(1, 5)};
-    Interval a(0 , 3);
 
-    InsertInterval it;
-    it.insert(vc , a);
+    RotateString rs;
+    rs.rotateString("ABCDEF" , "CDEFAB");
 
     return 0;
 }

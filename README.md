@@ -253,3 +253,4 @@
 205. [Jump Game(LeetCode#55)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/JumpGame.h)
 206. [Merge Intervals(LeetCode#56)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MergeIntervals.h)
 207. [Insert Interval(LeetCode#57)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/InsertInterval.h)
+208. [Rotate String(LeetCode#796)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RotateString.h)
