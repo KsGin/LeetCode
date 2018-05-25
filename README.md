@@ -256,3 +256,4 @@
 208. [Rotate String(LeetCode#796)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/RotateString.h)
 209. [My Calendar One(LeetCode#729)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/MyCalendarOne.h)
 210. [Second Minimum Node In A Binary Tree(LeetCode#671)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/SecondMinimumNodeInABinaryTree.h)
+211. [Valid Triangle Number(LeetCode#611)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ValidTriangleNumber.h)
