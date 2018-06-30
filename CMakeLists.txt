@@ -7,6 +7,6 @@ set(SOURCE_FILES
         LeetCode/main.cpp
         LeetCode/InsertInterval.h
         LeetCode/RotateString.h
-        LeetCode/DecodeString.h LeetCode/MyCalendarOne.h LeetCode/SecondMinimumNodeInABinaryTree.h LeetCode/ValidTriangleNumber.h LeetCode/UniqueBinarySearchTrees.h LeetCode/MaxIncreaseToKeepCitySkyline.h LeetCode/PeakIndexInAMountainArray.h LeetCode/FlippingAnImage.h LeetCode/BinaryTreePruning.h)
+        LeetCode/DecodeString.h LeetCode/MyCalendarOne.h LeetCode/SecondMinimumNodeInABinaryTree.h LeetCode/ValidTriangleNumber.h LeetCode/UniqueBinarySearchTrees.h LeetCode/MaxIncreaseToKeepCitySkyline.h LeetCode/PeakIndexInAMountainArray.h LeetCode/FlippingAnImage.h LeetCode/BinaryTreePruning.h LeetCode/AllPathsFromSourceToTarget.h)
 
 add_executable(LeetCode ${SOURCE_FILES})
