@@ -7,14 +7,20 @@
 //
 
 #include <iostream>
-#include "UniqueBinarySearchTrees.h"
+#include "ScoreAfterFlippingMatrix.h"
 
 using namespace std;
 
 int main() {
 
-    UniqueBinarySearchTrees ubst;
-    ubst.numTrees(10);
+    vector<vector<int>> matrix {
+        vector<int> {0 , 0 , 1 , 1} ,
+        vector<int> {1 , 0 , 1 , 0} ,
+        vector<int> {1 , 1 , 0 , 0}
+    };
+
+    ScoreAfterFlippingMatrix safm;
+    safm.matrixScore(matrix);
 
     return 0;
 }
