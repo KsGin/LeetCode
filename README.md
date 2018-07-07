@@ -264,3 +264,4 @@
 216. [Binary Tree Pruning(LeetCode#814)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/BinaryTreePruning.h)
 217. [All Paths From Source To Target(LeetCode#797)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/AllPathsFromSourceToTarget.h)
 218. [Score After Flipping Matrix(LeetCode#861)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/ScoreAfterFlippingMatrix.h)
+219. [Number Of Lines To Write String(LeetCode#806)](https://github.com/KsGin/LeetCode/blob/master/LeetCode/NumberOfLinesToWriteString.h)
