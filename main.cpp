@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "BinaryGap.h"
+#include "LeetCode/BinaryGap.h"
 
 using namespace std;
 
